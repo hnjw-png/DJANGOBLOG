@@ -61,3 +61,14 @@ TIME_CHOICES = (
     ("WEEKDAY 14-late")
 )
 
+
+
+class Appointment(models.Model):
+    user = models.ForeignKey(User, on_delete=models.CASCADE, null=True, blank=True)
+    service = models.Charfield(max_length=20, choices= SERVICE_CHOICES, default="UNDECIDED OR UNSPECIFIED FOR NOW")
+    day = models.Datefield(default=datetime.now, blank=True)
+    time = models.Charfield(max_length=15, choices=TIME_CHOICES, default="3pm")
+    time_ordered = models.DateTimeField(default=datetime.now, blank=True)
+    def __str__(self):
+        return f"{self.user.username} | day: {self.day} | time: {self.time}" 
+        
