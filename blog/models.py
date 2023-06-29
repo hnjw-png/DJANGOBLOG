@@ -56,9 +56,12 @@ SERVICE_CHOICES = (
 )
 
 TIME_CHOICES = (
-    ("2pm-12pm"),
-    ("10am-2pm")
-    ("10am-10pm")
+    ("2pm"),
+    ("3pm"),
+    ("4pm"),
+    ("5pm"),
+    ("6pm"),
+    ("7pm"),
 )
 
 
@@ -69,3 +72,4 @@ class Appointment(models.Model):
     
     def __str__(self):
         return f"{self.user.username} | day: {self.day} | time: {self.time}" 
+
