@@ -50,25 +50,22 @@ class Comment(models.Model):
 SERVICE_CHOICES = (
     ("WEDDING", "BAPTISM"),
     ("EXAM PARTY", "SCHOOL BALL"),
-    ("BIRTHDAY PARTY WITH LOCAL ONLY")
     ("BIRTHDAY PARTY WITH CHEF"),
     ("WORK PARTY", "AFTERWORK FOOD AND DRINKS"),
     ("UNDECIDED OR UNSPECIFIED FOR NOW")
 )
 
 TIME_CHOICES = (
-    ("WEEKEND 14-late"),
-    ("WEEKDAY 14-late")
+    ("2pm-12pm"),
+    ("10am-2pm")
+    ("10am-10pm")
 )
-
 
 
 class Appointment(models.Model):
     user = models.ForeignKey(User, on_delete=models.CASCADE, null=True, blank=True)
-    service = models.Charfield(max_length=20, choices= SERVICE_CHOICES, default="UNDECIDED OR UNSPECIFIED FOR NOW")
-    day = models.Datefield(default=datetime.now, blank=True)
-    time = models.Charfield(max_length=15, choices=TIME_CHOICES, default="3pm")
-    time_ordered = models.DateTimeField(default=datetime.now, blank=True)
+    service = models.CharField(max_length=50, choices=SERVICE_CHOICES, default="A LOCAL")
+    time = models.CharField(max_length=15, choices=TIME_CHOICES, default="3pm")
+    
     def __str__(self):
         return f"{self.user.username} | day: {self.day} | time: {self.time}" 
-        
