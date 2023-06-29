@@ -45,3 +45,19 @@ class Comment(models.Model):
 
     def __str__(self):
         return f"Comment {self.body} by {self.name}"
+
+
+SERVICE_CHOICES = (
+    ("WEDDING", "BAPTISM"),
+    ("EXAM PARTY", "SCHOOL BALL"),
+    ("BIRTHDAY PARTY WITH LOCAL ONLY")
+    ("BIRTHDAY PARTY WITH CHEF"),
+    ("WORK PARTY", "AFTERWORK FOOD AND DRINKS"),
+    ("UNDECIDED OR UNSPECIFIED FOR NOW")
+)
+
+TIME_CHOICES = (
+    ("WEEKEND 14-late"),
+    ("WEEKDAY 14-late")
+)
+
