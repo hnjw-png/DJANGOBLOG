@@ -18,7 +18,7 @@ def index(request):
 
 
 def booking(request):
-    weekdays = validWeekday(30)
+    weekdays = validWeekday(30) 
 
     validateWeekdays = isWeekdayValid(weekdays)
 
@@ -50,4 +50,6 @@ def bookingSubmit(request):
     deltatime = today + timedelta(days=30)
     strdeltatime = deltatime.strftime('%Y-%M-%D')
     maxDate = strdeltatime
+
+
 
