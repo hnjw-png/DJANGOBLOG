@@ -53,7 +53,7 @@ SERVICE_CHOICES = (
     ("BIRTHDAY PARTY WITH CHEF"),
     ("WORK PARTY", "AFTERWORK FOOD AND DRINKS"),
     ("UNDECIDED OR UNSPECIFIED FOR NOW")
-)
+ )
 
 TIME_CHOICES = (
     ("2pm"),
@@ -62,16 +62,34 @@ TIME_CHOICES = (
     ("5pm"),
     ("6pm"),
     ("7pm"),
-)
+ )
 
 
-class Appointment(models.Model):
+class Client(models.Model):
+    email = models.EmailField()
+    name = models.IntegerField()
+
+
+class Table(models.Model):
+    chairs = models.IntegerField()
+    min_people = models.IntegerField()
+    max_people = models.IntegerField()
+
+
+class Reservation(models.Model):
+    Table = models.Foreignkey('Table', on_delete=Models.CASCADE)
+    HowMany = models.Foreignkey('Client', on_delete=Models.CASCADE)
+    Place = models.DateField()
     user = models.ForeignKey(User, on_delete=models.CASCADE, null=True, blank=True)
     service = models.CharField(max_length=50, choices=SERVICE_CHOICES, default="A LOCAL")
     time = models.CharField(max_length=15, choices=TIME_CHOICES, default="3pm")
-    
-    def __str__(self):
-        return f"{self.user.username} | day: {self.day} | time: {self.time}" 
 
-class Reservation(model.Model):
-    user = models.Foreignkey(User)
+    def __str__(self):
+        return f"{self.user.username} | day: {self.day} | time: {self.time}"
+
+
+class 
+
+
+
+      
