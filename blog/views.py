@@ -17,8 +17,8 @@ def index(request):
     return render(request, "index.html", {})
 
 
-def booking(request):
-    weekdays = validWeekday(30) 
+def Reservation(request):
+    weekdays = validWeekday(30)
 
     validateWeekdays = isWeekdayValid(weekdays)
 
@@ -51,5 +51,6 @@ def bookingSubmit(request):
     strdeltatime = deltatime.strftime('%Y-%M-%D')
     maxDate = strdeltatime
 
+    return render(request, 'booking.html', {})
 
 
