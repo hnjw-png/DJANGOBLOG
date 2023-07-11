@@ -1,5 +1,7 @@
 GRÖNSTRÖMS RESTAURANT BOOKING SYSTEM:
 
+#  UNFORTUNATELY THIS PROJECT IS UNFINSIHED. AND THE WEBSITE DOES NOT FUNCTION AS IT SHOULD.
+
 ## Purpose of the Website
 
 The purpose of the website for GRÖNSTRÖMS, is to make a table and event booking site for a restuarant. The site should be easy to use for the potential customer booking a table or a event. You should be able to see which dates are avalaible, and the client should see their confirmed bookings. The second purpose is for the admin or owner of the site should be able to log in easily using django, here they can check when tables or events have been booked. This website is also useful to use instead of using a third party bookings system for your restaurant.
@@ -97,6 +99,7 @@ Languages used:
 * HTML
 * CSS
 * PYTHON
+* DJANGO
 
 # Applications used:
 
