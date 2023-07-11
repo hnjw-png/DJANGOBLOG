@@ -1,22 +1,20 @@
-
-
-ROCK, PAPER, SCISSORS GAME! MAN VS MACHINE:
+GRÖNSTRÖMS RESTAURANT BOOKING SYSTEM:
 
 ## Purpose of the Website
 
-The purpose of the website, is to make a table and event booking site for a restuarant. The site should be easy to use for the potential customer booking a table or a event. You should be able to see which dates are avalaible, and the client should see their confirmed bookings. The second purpose is for the admin or owner of the site should be able to log in easily using django, here they can check when tables or events have been booked. This website is also useful to use instead of using a third party bookings system for your restuarant.
+The purpose of the website for GRÖNSTRÖMS, is to make a table and event booking site for a restuarant. The site should be easy to use for the potential customer booking a table or a event. You should be able to see which dates are avalaible, and the client should see their confirmed bookings. The second purpose is for the admin or owner of the site should be able to log in easily using django, here they can check when tables or events have been booked. This website is also useful to use instead of using a third party bookings system for your restaurant.
 
 # User Experience/User Interface (UX/UI)
 
 ## First Time user goals:
 
-When the visitor first visits the game:
+When the visitor first visits the restaurant booking system:
 
 * The homepage should be clear of what the websites goals are.
 * The booking form should be clear and show which dates are booked and which are not.
 * The booking form should give options to book a event or a table.
 * The table booking should give the following options: How many, time and date.
-* The events booking form should give the follwoing options: How many, time, , as well as which event is requested.
+* The events booking form should give the following options: How many, time, , as well as which event is requested.
 * The site should look good and function on all devices.
 * You shoud be able enter your name and email and receive a booking confirmation on the screen.
 * The comments and likes section, should be clear and should allow logged in clients to edit there own posts, and like and or unlike.
@@ -50,7 +48,7 @@ The colour scheme is that of a white background to keep things professional and 
 
 # Typography
 
-I choose the font 'Lobster' this font has a nice clear look, which is a little bit like clear fancy handwriting, this stands out well and fits the style of the restaurant.
+I choose the font '' this font has a nice clear look, which is a little bit like clear fancy handwriting, this stands out well and fits the style of the restaurant.
 
 
 # Wireframes
@@ -79,7 +77,9 @@ This website fits to size on all types of devices. From laptop to mobile phone.
 ### Events bookings:
 
 
+
 ## Log in:
+
 
 
 ## Admin page:
