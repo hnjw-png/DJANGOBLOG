@@ -1,7 +1,7 @@
 from django.contrib import admin
 from .models import Post, Comment
 from django_summernote.admin import SummernoteModelAdmin
-admin.site.register(Appointment)
+admin.site.register
 
 
 @admin.register(Post)
@@ -25,6 +25,6 @@ class CommentAdmin(admin.ModelAdmin):
         queryset.update(approved=True)
 
 
-@admin.register()
+@admin.register(Reservation)
 class Reservation(admin.ModelAdmin):
     list_display = ('Table', 'HowMany', 'place')

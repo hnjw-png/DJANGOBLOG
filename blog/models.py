@@ -77,8 +77,8 @@ class Table(models.Model):
 
 
 class Reservation(models.Model):
-    Table = models.Foreignkey('Table', on_delete=Models.CASCADE)
-    HowMany = models.Foreignkey('Client', on_delete=Models.CASCADE)
+    Table = models.ForeignKey('Table', on_delete=models.CASCADE)
+    HowMany = models.ForeignKey('Client', on_delete=models.CASCADE)
     Place = models.DateField()
     user = models.ForeignKey(User, on_delete=models.CASCADE, null=True, blank=True)
     service = models.CharField(max_length=50, choices=SERVICE_CHOICES, default="A LOCAL")
@@ -86,10 +86,3 @@ class Reservation(models.Model):
 
     def __str__(self):
         return f"{self.user.username} | day: {self.day} | time: {self.time}"
-
-
-class 
-
-
-
-      
