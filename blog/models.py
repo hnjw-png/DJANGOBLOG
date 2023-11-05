@@ -48,20 +48,18 @@ class Comment(models.Model):
 
 
 SERVICE_CHOICES = (
-    ("WEDDING", "BAPTISM"),
-    ("EXAM PARTY", "SCHOOL BALL"),
-    ("BIRTHDAY PARTY WITH CHEF"),
-    ("WORK PARTY", "AFTERWORK FOOD AND DRINKS"),
-    ("UNDECIDED OR UNSPECIFIED FOR NOW")
+    ("WEDDING"),
+    ("EXAM")
+    ("BIRTHDAY"),
+    ("WORK"),
+    ("UNDECIDED")
  )
 
 TIME_CHOICES = (
-    ("2pm"),
-    ("3pm"),
-    ("4pm"),
-    ("5pm"),
-    ("6pm"),
-    ("7pm"),
+    ("2pm", "3pm"),
+    ("4pm", "5pm"),
+    ("6pm", "7pm"),
+    
  )
 
 
@@ -84,5 +82,4 @@ class Reservation(models.Model):
     service = models.CharField(max_length=50, choices=SERVICE_CHOICES, default="A LOCAL")
     time = models.CharField(max_length=15, choices=TIME_CHOICES, default="3pm")
 
-    def __str__(self):
-        return f"{self.user.username} | day: {self.day} | time: {self.time}"
+
