@@ -48,11 +48,11 @@ class Comment(models.Model):
 
 
 SERVICE_CHOICES = (
-    ("WEDDING"),
-    ("EXAM"),
-    ("BIRTHDAY"),
-    ("WORK"),
-    ("UNDECIDED")
+    ("w", "wedding"), 
+    ("e", "exam"), 
+    ("b", "birthday"), 
+    ("w","work"), 
+    ("u", "undecided"),
  )
 
 TIME_CHOICES = (
@@ -77,9 +77,9 @@ class Table(models.Model):
 class Reservation(models.Model):
     Table = models.ForeignKey('Table', on_delete=models.CASCADE)
     HowMany = models.ForeignKey('Client', on_delete=models.CASCADE)
-    Place = models.DateField()
+    place = models.DateField()
     user = models.ForeignKey(User, on_delete=models.CASCADE, null=True, blank=True)
-    service = models.CharField(max_length=50, choices=SERVICE_CHOICES, default="A LOCAL")
+    service = models.CharField(max_length=50, choices=SERVICE_CHOICES, default="undecided")
     time = models.CharField(max_length=15, choices=TIME_CHOICES, default="3pm")
 
     def __str__(self):
