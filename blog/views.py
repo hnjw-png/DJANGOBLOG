@@ -16,6 +16,9 @@ class PostList(generic.ListView):
 def index(request):
     return render(request, "index.html", {})
 
+def Test(request):
+    return render(request, "booking.html")
+
 
 def Reservation(request):
     weekdays = validWeekday(30)
