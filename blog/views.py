@@ -16,11 +16,8 @@ class PostList(generic.ListView):
 def index(request):
     return render(request, "index.html", {})
 
-def Test(request):
-    return render(request, "booking.html")
 
-
-def Reservation(request):
+class Reservation(request):
     weekdays = validWeekday(30)
 
     validateWeekdays = isWeekdayValid(weekdays)
@@ -30,7 +27,7 @@ def Reservation(request):
         day = request.POST.get('day')
         if service == None:
             messages.success(request, "Please Choose the type of event!")
-            return redirect('booking')
+            return redirect('booking.html')
 
         request.session['day'] = day
         request.session['service'] = service
