@@ -5,22 +5,11 @@ from datetime import datetime, timedelta
 from django.contrib import messages
 
 
-# Create your views here.
-class PostList(generic.ListView):
-    model = Post
-    queryset = Post.objects.filter(status=1).order_by("-created_on")
-    template_name = "index.html"
-    paginate_by = 6
-
-
-def index(request):
-    return render(request, "index.html", {})
-
 class booking:
     model = Post
     template_name = "booking.html"
 
-    
+
 def Reservation(request):
     weekdays = validWeekday(30)
 
@@ -55,6 +44,6 @@ def bookingSubmit(request):
     strdeltatime = deltatime.strftime('%Y-%M-%D')
     maxDate = strdeltatime
 
-    return render(request, 'booking.html', {})
+    return render(request, 'index.html', {})
 
 
