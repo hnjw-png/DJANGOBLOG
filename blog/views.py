@@ -5,7 +5,6 @@ from django.contrib.auth.decorators import login_required
 from .models import Reservation, Client
 from .forms import ReservationForm
 
-
 def reservation_list(request):
     Reservation = reservation.objects.all()
     return render(request, 'bookingblog/reservation_list.html', {'reservation': Reservation})
