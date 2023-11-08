@@ -1,7 +1,9 @@
 from django import forms
-from .models import Event
+from .models import Reservation
 
-class EventForm(forms.ModelForm):
+class ReservationForm(forms.ModelForm):
     class Meta:
-        model = Event
-        fields = ['title', 'description', 'date', 'time', 'location']
+        model = Reservation
+        fields = ['HowMany', 'place', 'user', 'services, ]
+
+        
