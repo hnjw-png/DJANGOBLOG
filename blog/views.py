@@ -1,10 +1,10 @@
-from django. shortcuts import render, redirect
+from django. shortcuts import render, get_object_or_404, redirect
 from django. views import generic
 from datetime import datetime, timedelta
+from django.contrib.auth.decorators import login_required
 from .models import Reservation, Client
 from .forms import ReservationForm
-import login_required
-from django.contrib.auth.models import User
+
 
 def reservation_list(request):
     Reservation = reservation.objects.all()
