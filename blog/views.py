@@ -3,11 +3,9 @@ from django. views import generic
 from .models import Post
 from datetime import datetime, timedelta
 from django.contrib import messages
-
-
-class booking:
-    model = Post
-    template_name = "booking.html"
+from .models import Reservation, Table, Client
+from .forms import EventForm
+import login_required
 
 
 def Reservation(request):
@@ -20,7 +18,7 @@ def Reservation(request):
         day = request.POST.get('day')
         if service == None:
             messages.success(request, "Please Choose the type of event!")
-            return redirect('booking')
+            return redirect('booking.html')
 
         request.session['day'] = day
         request.session['service'] = service
@@ -44,6 +42,30 @@ def bookingSubmit(request):
     strdeltatime = deltatime.strftime('%Y-%M-%D')
     maxDate = strdeltatime
 
-    return render(request, 'index.html', {})
+    return render(request, 'booking.html', {})
 
 
+def event_list(request):
+    events = Event.objects.all()
+    return render(request, 'event/event_list.html', {'events': events})
+def event_detail(request, event_id):
+    event = get_object_or_404(Event, pk=event_id)
+    attendees = Attendee.objects.filter(event=event)
+    return render(request, 'event/event_detail.html', {'event': event, 'attendees': attendees})
+@login_required
+def create_event(request):
+    if request.method == 'POST':
+        form = EventForm(request.POST)
+        if form.is_valid():
+            event = form.save(commit=False)
+            event.organizer = request.user
+            event.save()
+            return redirect('event_detail', event_id=event.id)
+    else:
+        form = EventForm()
+    return render(request, 'event/event_form.html', {'form': form})
+@login_required
+def register_event(request, event_id):
+    event = get_object_or_404(Event, pk=event_id)
+    Attendee.objects.get_or_create(user=request.user, event=event)
+    return redirect('event_detail', event_id=event.id)
