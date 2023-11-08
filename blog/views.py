@@ -2,7 +2,7 @@ from django. shortcuts import render, redirect
 from django. views import generic
 from datetime import datetime, timedelta
 from .models import Reservation, Client
-from .forms import EventForm
+from .forms import ReservationForm
 import login_required
 from django.contrib.auth.models import User
 
@@ -11,14 +11,14 @@ def reservation_list(request):
     return render(request, 'bookingblog/reservation_list.html', {'reservation': Reservation})
 
 def reservation_detail(request, reservation_id):
-    reservation = get_object_or_404(Event, pk=reservation_id)
+    reservation = get_object_or_404(Reservation, pk=reservation_id)
     Client = Client.objects.filter(reservation=reservation)
     return render(request, 'bookingblog/reservation_detail.html', {'reservation': Reservation, 'client': Client})
 
 @login_required
 def create_reservation(request):
     if request.method == 'POST':
-        form = EventForm(request.POST)
+        form = ReservationForm(request.POST)
         if form.is_valid():
             reservation = form.save(commit=False)
             reservation.organizer = request.user
