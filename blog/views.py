@@ -31,7 +31,7 @@ def create_reservation(request):
     return render(request, 'bookingblog/reservation_form.html', {'form': form})
 
 @login_required
-def register_reservation(request, event_id):
+def register_reservation(request, reservation_id):
     Reservation = get_object_or_404(Reservation, pk= reservation_id)
     Client.objects.get_or_create(user=request.user, Reservation=Reservation)
     return redirect('reservation_detail', reservation_id=reservation.id)
