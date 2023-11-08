@@ -2,6 +2,7 @@ from django.db import models
 from django.contrib.auth.models import User
 from cloudinary.models import CloudinaryField
 
+
 SERVICE_CHOICES = (
     ("w", "wedding"), 
     ("e", "exam"), 
@@ -17,16 +18,9 @@ TIME_CHOICES = (
     
  )
 
-
 class Client(models.Model):
     email = models.EmailField()
     name = models.IntegerField()
-
-
-class Table(models.Model):
-    chairs = models.IntegerField()
-    min_people = models.IntegerField()
-    max_people = models.IntegerField()
 
 
 class Reservation(models.Model):
