@@ -5,6 +5,9 @@ from django.contrib.auth.decorators import login_required
 from .models import Reservation, Client
 from .forms import ReservationForm
 
+def Reservation(request):
+    return render(request, 'bookingblog/index.html')
+
 def reservation_list(request):
     Reservation = reservation.objects.all()
     return render(request, 'bookingblog/reservation_list.html', {'reservation': Reservation})
@@ -29,6 +32,6 @@ def create_reservation(request):
 
 @login_required
 def register_reservation(request, event_id):
-    Reservation = get_object_or_404(Event, pk=event_id)
+    Reservation = get_object_or_404(Reservation, pk= reservation_id)
     Client.objects.get_or_create(user=request.user, Reservation=Reservation)
     return redirect('reservation_detail', reservation_id=reservation.id)
