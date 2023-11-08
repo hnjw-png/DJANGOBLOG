@@ -18,18 +18,17 @@ TIME_CHOICES = (
     
  )
 
-class Client(models.Model):
-    email = models.EmailField()
-    name = models.IntegerField()
-
 
 class Reservation(models.Model):
-    Table = models.ForeignKey('Table', on_delete=models.CASCADE)
     HowMany = models.ForeignKey('Client', on_delete=models.CASCADE)
     place = models.DateField()
     user = models.ForeignKey(User, on_delete=models.CASCADE, null=True, blank=True)
     service = models.CharField(max_length=50, choices=SERVICE_CHOICES, default="undecided")
     time = models.CharField(max_length=15, choices=TIME_CHOICES, default="3pm")
+
+class Client(models.Model):
+    user = user = models.ForeignKey(User, on_delete=models.CASCADE)
+    Reservation = models.ForeignKey(Reservation, on_delete=models.CASCADE)
 
     def __str__(self):
         return f"{self.user.username} | day: {self.day} | time: {self.time}"

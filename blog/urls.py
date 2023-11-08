@@ -1,10 +1,8 @@
-from . import views
-from django.urls import path
+from django.contrib import admin
+from django.urls import path, include
+
 
 urlpatterns = [
-    path("", views.PostList.as_view(), name="home"),
-    path("bookingSubmit", views.bookingSubmit, name="bookingSubmit"),
-    path("Reservation", views.Reservation, name="Reservation"),
-    path("", views.booking, name="booking")
+    path('admin/', admin.site.urls),
+    path('', include('bookingblog.urls')),
 ]
-
