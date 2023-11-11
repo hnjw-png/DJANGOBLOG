@@ -25,7 +25,7 @@ class Reservation(models.Model):
     date = models.DateField()
     time = models.TimeField(choices=TIME_CHOICES, default="3pm")
     location = models.CharField(max_length=200, default='somewhere')
-    organizer = models.ForeignKey(User, on_delete=models.CASCADE, default='0')
+    organizer = models.ForeignKey(User, on_delete=models.CASCADE)
     def __str__(self):
         return self.title
 
