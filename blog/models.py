@@ -20,7 +20,6 @@ TIME_CHOICES = (
 
 
 class Reservation(models.Model):
-    HowMany = models.ForeignKey('Client', on_delete=models.CASCADE)
     place = models.DateField()
     user = models.ForeignKey(User, on_delete=models.CASCADE, null=True, blank=True)
     service = models.CharField(max_length=50, choices=SERVICE_CHOICES, default="undecided")

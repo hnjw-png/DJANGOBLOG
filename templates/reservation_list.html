@@ -2,7 +2,7 @@
 {% block content %}
     <h2>Reservations</h2>
     <ul>
-        {% for event in events %}
+        {% for reservation in reservations %}
             <li>
                 <a href="{% url 'reservation_detail' reservation.id %}">{{ reservation.title }}</a>
             </li>

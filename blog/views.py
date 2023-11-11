@@ -10,7 +10,7 @@ from .forms import ReservationForm
 
 def reservation_list(request):
     reservations = Reservation.objects.all()
-    return render(request, '/workspace/DJANGOBLOG/templates/reservation_list.html', {'reservation': Reservation})
+    return render(request, '/workspace/DJANGOBLOG/templates/reservation_list.html', {'reservations': reservations})
 
 def reservation_detail(request, reservation_id):
     reservation = get_object_or_404(Reservation, pk=reservation_id)
