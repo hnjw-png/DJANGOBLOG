@@ -6,4 +6,4 @@ admin.site.register
 
 @admin.register(Reservation)
 class Reservation(admin.ModelAdmin):
-    list_display = ('HowMany', 'place')
+    list_display = ('place', 'user', 'service', 'time')
