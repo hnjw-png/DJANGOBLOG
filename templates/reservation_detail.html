@@ -1,10 +1,10 @@
 {% extends 'event/base.html' %}
 {% block content %}
-    <h2>{{ reservation.title }}</h2>
-    <p>{{ reservation.description }}</p>
+    <h2>{{ reservation.HowMany}}</h2>
+    <p>{{ reservation.place }}</p>
     <p>Date: {{ reservation.date }}</p>
-    <p>Time: {{ reservation.time }}</p>
-    <p>Location: {{ reservation.location }}</p>
+    <p>Time: {{ reservation.service }}</p>
+    <p>Location: {{ reservation.time }}</p>
     <h3>Clients</h3>
     <ul>
         {% for client in clients %}
