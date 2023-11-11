@@ -19,19 +19,19 @@ TIME_CHOICES = (
  )
 
 class Reservation(models.Model):
-    title = models.CharField(max_length=200)
+    title = models.CharField(max_length=200, default='UPDATE')
     description = models.TextField(max_length=200, default='its party time')
     service = models.TextField(max_length =100, choices=SERVICE_CHOICES, default="undecided")
     date = models.DateField()
     time = models.TimeField(choices=TIME_CHOICES, default="3pm")
     location = models.CharField(max_length=200, default='somewhere')
-    organizer = models.ForeignKey(User, on_delete=models.CASCADE)
+    organizer = models.ForeignKey(User, on_delete=models.CASCADE, default='0')
     def __str__(self):
         return self.title
 
 class Client(models.Model):
     user = models.ForeignKey(User, on_delete=models.CASCADE)
-    reservation = models.ForeignKey(Reservation, on_delete=models.CASCADE)
+    Reservation = models.ForeignKey(Reservation, on_delete=models.CASCADE)
     def __str__(self):
         return f"{self.user.username} - {self.reservation.title}"
 
