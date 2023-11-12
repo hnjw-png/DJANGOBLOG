@@ -1,8 +1,8 @@
-{% extends 'event/base.html' %}
+{% extends 'base.html' %}
 {% block content %}
     <h2>{{ reservation.title}}</h2>
     <p>Date: {{ reservation.date }}</p>
-    <p>Description: {{ event.description }}</p>
+    <p>Description: {{ reservation.description }}</p>
     <p>Time: {{ reservation.time }}</p>
     <p>Location: {{ reservation.location }}</p>
     <h3>Clients</h3>
@@ -15,7 +15,7 @@
     </ul>
     {% if user.is_authenticated %}
         {% if user != event.organizer %}
-            <a href="{% url 'register_reservation' reservation.id %}">Register for Event</a>
+            <a href="{% url 'register_reservation' reservation.id %}">Register for Reservation</a>
         {% endif %}
     {% else %}
         <p>Please log in to register for this event.</p>
