@@ -11,19 +11,19 @@ SERVICE_CHOICES = (
     ("u", "undecided"),
  )
 
-TIME_CHOICES = (
-    ("2pm", "3pm"),
-    ("4pm", "5pm"),
-    ("6pm", "7pm"),
+#TIME_CHOICES = (
+ #   ("2pm", "2pm"),
+  #  ("3pm", "3pm"),
+   # ("4pm", "4pm"),
     
- )
+ #)
 
 class Reservation(models.Model):
     title = models.CharField(max_length=200, default='UPDATE')
     description = models.TextField(max_length=200, default='its party time')
     service = models.TextField(max_length =100, choices=SERVICE_CHOICES, default="undecided")
     date = models.DateField()
-    time = models.TimeField(choices=TIME_CHOICES, default="3pm")
+    time = models.TimeField( default="3pm")
     location = models.CharField(max_length=200, default='somewhere')
     organizer = models.ForeignKey(User, on_delete=models.CASCADE)
     def __str__(self):
