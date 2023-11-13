@@ -18,7 +18,7 @@ SERVICE_CHOICES = (
     
  #)
 
-class Reservation(models.Model):
+class reservation(models.Model):
     title = models.CharField(max_length=200, default='UPDATE')
     description = models.TextField(max_length=200, default='its party time')
     service = models.TextField(max_length =100, choices=SERVICE_CHOICES, default="undecided")
@@ -29,9 +29,9 @@ class Reservation(models.Model):
     def __str__(self):
         return self.title
 
-class Client(models.Model):
+class client(models.Model):
     user = models.ForeignKey(User, on_delete=models.CASCADE)
-    Reservation = models.ForeignKey(Reservation, on_delete=models.CASCADE)
+    reservation = models.ForeignKey(reservation, on_delete=models.CASCADE)
     def __str__(self):
         return f"{self.user.username} - {self.reservation.title}"
 

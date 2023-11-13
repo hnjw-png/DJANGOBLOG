@@ -1,8 +1,8 @@
 from django import forms
-from .models import Reservation
+from .models import reservation
 
-class ReservationForm(forms.ModelForm):
+class reservationForm(forms.ModelForm):
     class Meta:
-        model = Reservation
+        model = reservation
         fields = [ 'description', 'service', 'date', 'time', 'location']
 
