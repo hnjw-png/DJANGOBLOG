@@ -11,12 +11,12 @@ SERVICE_CHOICES = (
     ("u", "undecided"),
  )
 
-TIME_CHOICES = (
-    ("2pm", "2pm"),
-    ("3pm", "3pm"),
-    ("4pm", "4pm"),
+#TIME_CHOICES = (
+ #   ("2pm", "2pm"),
+  #  ("3pm", "3pm"),
+   # ("4pm", "4pm"),
     
- )
+ # )
 
 class Reservation(models.Model):
     title = models.CharField(max_length=200, default='UPDATE')
