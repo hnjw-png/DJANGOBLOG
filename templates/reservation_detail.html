@@ -1,16 +1,16 @@
 {% extends "base.html" %}
 {% block content %}
     <h2 class = 'reserve_title'>{{ reservation.title}}</h2>
-    <p>Date: {{ reservation.date }}</p>
-    <p>Description: {{ reservation.description }}</p>
-    <p>Time: {{ reservation.time }}</p>
-    <p>Location: {{ reservation.location }}</p>
-    <h3>Clients</h3>
+    <p class = 'info'>Date: {{ reservation.date }}</p>
+    <p class = 'info'>Description: {{ reservation.description }}</p>
+    <p class = 'info' >Time: {{ reservation.time }}</p>
+    <p class = 'info'>Location: {{ reservation.location }}</p>
+    <h3 class = 'reserve_title'>Clients</h3>
     <ul>
         {% for client in clients %}
-            <li>{{ client.user.username }}</li>
+            <li class = 'info'>{{ client.user.username }}</li>
         {% empty %}
-            <li>No Clients yet.</li>
+            <li class = 'info'>No Clients yet.</li>
         {% endfor %}
     </ul>
     {% if user.is_authenticated %}
@@ -18,7 +18,7 @@
             <a href="{% url 'register_reservation' reservation.id %}">Register for Reservation</a>
         {% endif %}
     {% else %}
-        <p>Please log in to register for this event.</p>
-        <a href="{% url 'register_reservation' reservation.id %}">Register for Reservation</a>
+        <p class = 'info' >Please log in to register for this event.</p>
+        <a id = 'register' href="{% url 'register_reservation' reservation.id %}">Register for Reservation</a>
     {% endif %}
     {% endblock %}
