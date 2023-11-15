@@ -1,5 +1,6 @@
 body {
     background-color: #23BBBB;
+    background-image: url('/workspace/DJANGOBLOG/media/traveltoparty.jpg');
 }
 
 .imagehome {
@@ -147,14 +148,18 @@ body {
 
 .reserve_detail {
 
-    font-size: 1000px;
+    font-size: 150px;
     text-align: center;
     font-style: italic;
     color: royalblue;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Lobster', sans-serif;
 
 }
 
 .reservation {
     text-align: center;
+    font-style: italic;
+    font-size: 75px;
 }
 

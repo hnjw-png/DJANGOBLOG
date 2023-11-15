@@ -14,7 +14,7 @@ def reservation_list(request):
 
 def reservation_detail(request, reservation_id):
     reservation = get_object_or_404(Reservation, pk=reservation_id)
-    client = Client.objects.filter(reservations=Reservation)
+    client = Client.objects.filter(reservation=Reservation)
     return render(request, '/workspace/DJANGOBLOG/templates/reservation_detail.html', {'reservation': Reservation, 'client': Client})
 
 @login_required
