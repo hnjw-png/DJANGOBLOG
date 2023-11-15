@@ -14,7 +14,7 @@
         {% endfor %}
     </ul>
     {% if user.is_authenticated %}
-        {% if user != event.organizer %}
+        {% if user != reservation.organizer %}
             <a href="{% url 'register_reservation' reservation.id %}">Register for Reservation</a>
         {% endif %}
     {% else %}
