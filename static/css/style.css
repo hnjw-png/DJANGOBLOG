@@ -1,6 +1,5 @@
 body {
-    background-image: url("/workspace/DJANGOBLOG/media/walk.jpg");
-    size: 500px;
+    background-image: url("img/");
     
 }
 
