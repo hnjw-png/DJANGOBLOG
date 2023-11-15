@@ -35,4 +35,5 @@ def register_reservation(request, reservation_id):
     reservation = get_object_or_404(Reservation, pk=reservation_id)
     Client.objects.get_or_create(user=request.user, reservation=reservation)
     return redirect('reservation_detail', reservation_id=reservation.id)
+
     

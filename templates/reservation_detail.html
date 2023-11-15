@@ -1,6 +1,6 @@
 {% extends "base.html" %}
 {% block content %}
-    <h2>{{ reservation.title}}</h2>
+    <h2 class = 'reserve_title'>{{ reservation.title}}</h2>
     <p>Date: {{ reservation.date }}</p>
     <p>Description: {{ reservation.description }}</p>
     <p>Time: {{ reservation.time }}</p>
@@ -19,5 +19,6 @@
         {% endif %}
     {% else %}
         <p>Please log in to register for this event.</p>
+        <a href="{% url 'register_reservation' reservation.id %}">Register for Reservation</a>
     {% endif %}
     {% endblock %}
