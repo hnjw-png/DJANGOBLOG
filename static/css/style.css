@@ -1,6 +1,7 @@
 body {
-    background-color: #23BBBB;
-    background-image: url('/workspace/DJANGOBLOG/media/traveltoparty.jpg');
+    background-image: url("");
+    size: 500px;
+    
 }
 
 .imagehome {
