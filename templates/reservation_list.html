@@ -7,8 +7,10 @@
             <li class ='reservation'>
                 <a href="{% url 'reservation_detail' reservation.id %}">{{ reservation.title }}</a>
             </li>
+            <img src="{% static 'concert.jpg' %}" alt ='people_at_concert' class = 'reserve_image'>
         {% empty %}
             <li class ="reserve_detail">No reservations found.</li>
         {% endfor %}
     </ul>
+    
 {% endblock %}

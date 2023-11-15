@@ -14,7 +14,7 @@ body {
 }
 
 .red-o {
-    color: #E84610;
+    color: #a28089;;
 }
 
 .thin {
@@ -147,7 +147,7 @@ body {
     font-size: 50px;
     text-align: center;
     font-style: italic;
-    color: royalblue;
+    color: #a28089;
     font-family: 'Dancing Script', cursive;
     font-family: 'Lobster', sans-serif;
 
@@ -157,6 +157,8 @@ body {
     font-size: 30px;
     text-align: center;
     font-style: italic;
+    color: #a28089;
+    list-style-type: none;
     
 }
 
@@ -186,4 +188,14 @@ body {
     margin-left: 400px;
     
 
+}
+
+a:link {
+    color: #a28089;
+
+}
+
+.reserve_image {
+    size: 100px;
+    margin-left: 100px;
 }
