@@ -144,9 +144,17 @@ body {
     border: none;
 }
 
+
 .reserve_detail {
 
-    font-size: larger;
+    font-size: 1000px;
+    text-align: center;
     font-style: italic;
     color: royalblue;
+
 }
+
+.reservation {
+    text-align: center;
+}
+
