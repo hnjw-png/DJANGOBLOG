@@ -31,7 +31,7 @@ class Reservation(models.Model):
 
 class Client(models.Model):
     user = models.ForeignKey(User, on_delete=models.CASCADE)
-    Reservation = models.ForeignKey(Reservation, on_delete=models.CASCADE)
+    reservation = models.ForeignKey(Reservation, on_delete=models.CASCADE)
     def __str__(self):
         return f"{self.user.username} - {self.reservation.title}"
 
