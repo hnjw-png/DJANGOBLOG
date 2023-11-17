@@ -9,9 +9,9 @@
             <li class ='reservation'>
                 <a class = 'buttonfunny' href="{% url 'reservation_detail' reservation.id %}"><button>{{ reservation.title }}</a></button>
             </li>
+            
         {% empty %}
             <li class ="buttonfunny">No reservations found.</li>
         {% endfor %}
     </ul></div> 
-    
 {% endblock %}
