@@ -26,7 +26,7 @@ class Reservation(models.Model):
     time = models.TimeField(default='12:00:00')
     location = models.CharField(max_length=200, default='somewhere')
     organizer = models.ForeignKey(User, on_delete=models.CASCADE)
-    image = models.ImageField(upload_to=None, height_field=None, width_field=None, max_length=100, **options)
+    image = models.ImageField(upload_to=None, height_field=None, width_field=None, max_length=100, default='add image')
     def __str__(self):
         return self.title
 
