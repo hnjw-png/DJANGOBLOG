@@ -14,11 +14,11 @@
         {% endfor %}
     </ul>
     {% if user.is_authenticated %}
-        {% if user != reservation.organizer %}
-            <a href="{% url 'register_reservation' reservation.id %}">Register for Reservation</a>
+        {% if user == reservation.organizer %}
+            <a href="{% url 'create_reservation' %}"><button>Create Reservation</button></a>
         {% endif %}
     {% else %}
-        <p class = 'info' >Please log in to register for this event.</p>
-        <a id = 'register' href="{% url 'register_reservation' reservation.id %}">Register for Reservation</a>
+        <p class = 'info' >Please log in to register a event.</p>
+        <a id = 'register' href="{% url 'register_reservation' reservation.id %}"><button>Create a Reservation</button></a>
     {% endif %}
     {% endblock %}
