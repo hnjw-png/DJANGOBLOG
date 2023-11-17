@@ -1,18 +1,17 @@
 {% extends "base.html" %}
 {% block content %}
 {% load static %}
-    <h2 class ="reserve_detail" >Make a personlised reservation at Events 101. </h2>
-    <h3 class ="reserve_detail">Located in Gotham, events hall.</h3>
-    <h4 class ="reserve_detail">List of upcoming events, email: for registration.</h4>
-    <ul>
+    <div id = 'purple'><h2 class ="reserve_detail" >Create a Personlised Event at Event 101! </h2>
+    <h3 class ="subtitle">Located in Gotham, events hall.</h3></div>
+    <h4 class ="list_title">List of upcoming events: </h4>
+   <div id = 'reserve_list'><ul>
         {% for reservation in reservations %}
             <li class ='reservation'>
-                <a href="{% url 'reservation_detail' reservation.id %}">{{ reservation.title }}</a>
+                <a class = 'buttonfunny' href="{% url 'reservation_detail' reservation.id %}"><button>{{ reservation.title }}</a></button>
             </li>
-            <img src="{% static 'concert.jpg' %}" alt ='people_at_concert' class = 'reserve_image'>
         {% empty %}
-            <li class ="reserve_detail">No reservations found.</li>
+            <li class ="buttonfunny">No reservations found.</li>
         {% endfor %}
-    </ul>
+    </ul></div> 
     
 {% endblock %}
