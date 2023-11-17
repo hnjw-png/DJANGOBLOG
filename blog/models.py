@@ -8,7 +8,7 @@ SERVICE_CHOICES = (
     ("e", "exam"), 
     ("b", "birthday"), 
     ("w","work"), 
-    ("u", "undecided"),
+    ("u", "none of the above"),
  )
 
 #TIME_CHOICES = (
@@ -19,13 +19,14 @@ SERVICE_CHOICES = (
  # )
 
 class Reservation(models.Model):
-    title = models.CharField(max_length=200, default='UPDATE')
-    description = models.TextField(max_length=200, default='its party time')
+    title = models.CharField(max_length=200, default='Create your Reservation')
+    description = models.TextField(max_length=200, default='what will you be doing?')
     service = models.TextField(max_length =100, choices=SERVICE_CHOICES, default="undecided")
-    date = models.DateField()
-    time = models.TimeField(default="3pm")
+    date = models.DateField(default='01:01:2024')
+    time = models.TimeField(default='12:00:00')
     location = models.CharField(max_length=200, default='somewhere')
     organizer = models.ForeignKey(User, on_delete=models.CASCADE)
+    image = models.ImageField(upload_to=None, height_field=None, width_field=None, max_length=100, **options)
     def __str__(self):
         return self.title
 
