@@ -14,13 +14,12 @@
             <li class = 'info'>No Clients yet.</li>
         {% endfor %}
     </ul>
-    <button type = "delete">Delete</button>
     {% if user.is_authenticated %}
         {% if user == reservation.organizer %}
             <a class = 'register' href="{% url 'create_reservation' %}"><button>Create Reservation</button></a>
         {% endif %}
     {% else %}
         <p class = 'info' >Please log in to create your own event.</p>
-        <a class = 'register' href="{% url 'register_reservation' reservation.id %}"><button>Create a Reservation</button></a>
+        <a class = 'register' href="{% url 'register_reservation' reservation.id %}"><button>Log in</button></a>
     {% endif %}
     {% endblock %}
