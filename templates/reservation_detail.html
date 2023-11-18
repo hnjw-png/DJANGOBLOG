@@ -18,6 +18,7 @@
         {% if user == reservation.organizer %}
             <a class = 'register' href="{% url 'create_reservation' %}"><button>Create Reservation</button></a>
             <a class = '#' href ="{%url 'update_reservation' %}"></a><button>Update Reservation</button>
+            <a class = '#' href ="{%url 'delete_reservation' %}"></a><button>Delete Reservation</button>
         {% endif %}
     {% else %}
         <p class = 'info' >Please log in to create your own event.</p>
