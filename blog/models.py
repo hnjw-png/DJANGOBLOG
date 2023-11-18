@@ -36,15 +36,3 @@ class Client(models.Model):
     def __str__(self):
         return f"{self.user.username} - {self.reservation.title}"
 
-#class Reservation(models.Model):
- #   place = models.DateField()
-  #  user = models.ForeignKey(User, on_delete=models.CASCADE, null=True, blank=True)
-   # service = models.CharField(max_length=50, choices=SERVICE_CHOICES, default="undecided")
-    # time = models.CharField(max_length=15, choices=TIME_CHOICES, default="3pm")
-
-#class Client(models.Model):
- #   user = user = models.ForeignKey(User, on_delete=models.CASCADE)
-  #  Reservation = models.ForeignKey(Reservation, on_delete=models.CASCADE)
-
-   # def __str__(self):
-    #    return f"{self.user.username} | day: {self.place} | time: {self.time}"
