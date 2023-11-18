@@ -3,8 +3,9 @@
 {% load static %}
     <div id = 'purple'><h2 class ="reserve_detail" >Create a Personlised Event at Event 101! </h2>
     <h3 class ="subtitle">Located in Gotham, events hall.</h3></div>
-    <h4 class ="list_title">List of upcoming events: </h4>
+    <h4 class ="list_title">Create your own event or look below for List of upcoming events: </h4>
    <div id = 'reserve_list'><ul>
+   <a class = 'create' href="{% url 'create_reservation' %}"><button>Create Reservation</button></a>
         {% for reservation in reservations %}
             <li class ='reservation'>
                 <a class = 'buttonfunny' href="{% url 'reservation_detail' reservation.id %}"><button>{{ reservation.title }}</a></button>

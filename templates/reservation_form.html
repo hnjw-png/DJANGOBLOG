@@ -1,6 +1,6 @@
 {% extends "base.html" %}
 {% block content %}
-    <h2>{{ form.instance.title|default:"New Reservation" }}</h2>
+    <h2 class = 'new_reservation'>{{ form.instance.title|default:"New Reservation" }}</h2>
     <form method="post">
         {% csrf_token %}
         {{ form.as_p }}

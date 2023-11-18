@@ -141,6 +141,8 @@ body {
     border: none;
 }
 
+/* reservation_list(homepage) css */
+
 #purple {
     background-color: #d0bdf4;
 
@@ -180,9 +182,38 @@ body {
     font-style: italic;
     color: #c27c8f;
     font-family: 'lobster', sans-serif;
-    
 
 }
+
+.create {
+
+        font-style: normal;
+        font-family: 'Dancing Script', cursive;
+        font-size: 75px;
+        font-weight: 10;
+        color: #a28089;
+        text-decoration: none;
+        margin-inline-start: 30%;  
+        
+    
+    }
+
+
+    .buttonfunny {
+
+        font-style: normal;
+        font-family: 'Dancing Script', cursive;
+        font-size: 50px;
+        font-weight: 10;
+        text-align: center;
+        color: black;
+        text-decoration: none;
+        
+        
+    
+    }
+
+
 
 .reservation {
     font-size: 30px;
@@ -201,6 +232,8 @@ body {
     
 }
 
+/* reservation_detail css */
+
 .info {
     font-size: 20px;
     text-align: center;
@@ -214,29 +247,22 @@ body {
 
     font-style: normal;
     font-family: 'Dancing Script', cursive;
-    font-size: 20px;
+    font-size: 70px;
     font-weight: 10;
-    text-align: center;
     color: #a28089;
     text-decoration: none;
-    margin-left: 36%;
-    
+    margin-inline-start: 17%;   
 
 }
 
-.buttonfunny {
+#button-postion {
 
-    font-style: normal;
-    font-family: 'Dancing Script', cursive;
-    font-size: 20px;
-    font-weight: 10;
-    text-align: center;
-    color: black;
-    text-decoration: none;
-    border-radius: 50%, 50%;
+    display: flex;
     
-
 }
+
+
+
 
 
 
@@ -244,4 +270,13 @@ body {
 .reserve_image {
     size: 100px;
     margin-left: 100px;
+}
+
+/* reservation_form css */
+
+.new_reservation {
+
+    font-size: 50px;
+    font-family: 'Dancing Script', cursive;
+    text-decoration: underline;
 }

@@ -5,7 +5,6 @@
     <p class = 'info'>Description: {{ reservation.description }}</p>
     <p class = 'info' >Time: {{ reservation.time }}</p>
     <p class = 'info'>Location: {{ reservation.location }}</p>
-    <p class = 'info'>Image: {{ reservation.image }}</p>
     <h3 class = 'reserve_title'>Clients</h3>
     <ul>
         {% for client in clients %}
@@ -16,9 +15,9 @@
     </ul>
     {% if user.is_authenticated %}
         {% if user == reservation.organizer %}
-            <a class = 'register' href="{% url 'create_reservation' %}"><button>Create Reservation</button></a>
-            <a class = '#' href ="{%url 'update_reservation' reservation.id %}"></a><button>Update Reservation</button>
-            <a class = '#' href ="{%url 'delete_reservation' reservation.id  %}"></a><button>Delete Reservation</button>
+           <div id = 'button-position'><a class = 'register' href="{% url 'create_reservation' %}"><button>Create Reservation</button></a>
+            <a class = 'register' href ="{%url 'update_reservation' reservation.id %}"><button>Update Reservation</button></a>
+            <a class = 'register' href ="{%url 'delete_reservation' reservation.id  %}"><button>Delete Reservation</button></a></div> 
         {% endif %}
     {% else %}
         <p class = 'info' >Please log in to create your own event.</p>

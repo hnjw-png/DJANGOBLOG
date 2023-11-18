@@ -46,11 +46,11 @@ def delete_reservation(request, reservation_id):
 
 @login_required
 def update_reservation(request, reservation_id):
-    reservation = Reservation.object.get(pk=reservation_id)
+    reservation = Reservation.objects.get(pk=reservation_id)
     form = ReservationForm(request.POST or None, instance=reservation)
     if form.is_valid():
         form.save()
         return redirect('reservation_form', reservation_id=reservation.id)
 
-    return render(request, 'reservation_detail.html', {'reservation':reservation, 'form':form})
+    return render(request, 'reservation_form.html', {'reservation':reservation, 'form':form})
 
