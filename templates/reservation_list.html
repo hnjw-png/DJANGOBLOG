@@ -4,7 +4,7 @@
     <div id = 'purple'><h2 class ="reserve_detail" >Create a Personlised Event at Event 101! </h2>
     <h3 class ="subtitle">Plan your own events. And share them. The reservation must be detailed with full details of time, location and type. Otherwise they will be subject to deletion by admin. :)</h3></div>
     <h4 class ="list_title">Create your own event or look below for List of upcoming events: </h4>
-   <div id = 'reserve_list'><ul>
+   <p id = 'reserve_list'><p>
    <a class = 'create' href="{% url 'create_reservation' %}"><button>Create Reservation</button></a>
         {% for reservation in reservations %}
             <li class ='reservation'>

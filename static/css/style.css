@@ -192,7 +192,7 @@ body {
         font-weight: 10;
         color: #a28089;
         text-decoration: none;
-        margin-inline-start: 30%;  
+        text-align: center; 
         
     
     }
@@ -246,7 +246,7 @@ body {
 
     font-style: normal;
     font-family: 'Dancing Script', cursive;
-    font-size: 70px;
+    font-size: 25px;
     font-weight: 10;
     color: #a28089;
     text-decoration: none;
@@ -275,3 +275,55 @@ body {
     font-family: 'Dancing Script', cursive;
     text-decoration: underline;
 }
+
+/*media query over 768px */
+@media (min-width: 768px) {
+    
+    .create {
+
+        font-style: normal;
+        font-family: 'Dancing Script', cursive;
+        font-size: 75px;
+        font-weight: 10;
+        color: #a28089;
+        text-decoration: none;
+        text-align: center; 
+        margin-left: 200px;
+        
+    
+    }
+  }
+
+  @media (max-width: 280px) {
+
+    .create {
+
+        font-style: normal;
+        font-family: 'Dancing Script', cursive;
+        font-size: 55px;
+        font-weight: 10;
+        color: #a28089;
+        text-decoration: none;
+        text-align: center; 
+        
+        
+    
+    }
+
+  }
+
+  @media (min-width: 768px) {
+
+  .register {
+
+    font-style: normal;
+    font-family: 'Dancing Script', cursive;
+    font-size: 50px;
+    font-weight: 10;
+    color: #a28089;
+    text-decoration: none;
+    margin-inline-start: 17%;   
+
+}
+
+  }
