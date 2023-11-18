@@ -3,9 +3,7 @@ body {
     
 }
 
-.imagehome {
-    size: 500px;
-}
+
 .brand {
     font-family: Lato, sans-serif;
     font-size: 1.4rem;
@@ -165,11 +163,12 @@ body {
 
 .subtitle {
 
-    font-size: 30px;
+    font-size: 15px;
+    font-weight: bolder;
     text-align: center;
     font-style: italic;
-    color: #c27c8f;
-    font-family: 'Dancing Script', cursive;
+    color: black;
+    font-family: Lato, sans-serif;
     font-weight: bold;
     
 
@@ -267,10 +266,6 @@ body {
 
 
 
-.reserve_image {
-    size: 100px;
-    margin-left: 100px;
-}
 
 /* reservation_form css */
 

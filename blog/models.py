@@ -22,7 +22,7 @@ class Reservation(models.Model):
     title = models.CharField(max_length=200, default='Create your Reservation')
     description = models.TextField(max_length=200, default='what will you be doing?')
     service = models.TextField(max_length =100, choices=SERVICE_CHOICES, default="undecided")
-    date = models.DateField(default='01:01:2024')
+    date = models.DateField(default='2024-07-11')
     time = models.TimeField(default='12:00:00')
     location = models.CharField(max_length=200, default='somewhere')
     organizer = models.ForeignKey(User, on_delete=models.CASCADE)

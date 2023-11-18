@@ -21,6 +21,6 @@
         {% endif %}
     {% else %}
         <p class = 'info' >Please log in to create your own event.</p>
-        <a class = 'register' href="{% url 'register_reservation' reservation.id %}"><button>Log in</button></a>
+        <a class = 'register' href ="{%url 'register_reservation' reservation.id  %}"><button>Log in</button></a>
     {% endif %}
     {% endblock %}
