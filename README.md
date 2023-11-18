@@ -172,16 +172,13 @@ Languages used:
 ## Home css validated 
 
 
-# DEPLOYMENT
-
- https://hnjw-png.github.io/DJANGOBLOG/
-
-
-
-
 
 # Bug fixes
 
-*
+* A fix would be to add a  http response when you hit the delete button, to warn the user they are deleting their reservation.
+
+* Add email verification, so users can reaccess their accouns if passowrd is forgotten, through verification process.
+
+* 
 
 # Deployment:
