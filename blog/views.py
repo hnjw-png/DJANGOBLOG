@@ -36,3 +36,15 @@ def register_reservation(request, reservation_id):
     Client.objects.get_or_create(user=request.user, reservation=reservation)
     return redirect('reservation_detail', reservation_id=reservation.id)
     
+@login_required
+def update_reservation(request, reservation_id):
+    reservation = Reservation.object.get(pk=reservation_id)
+    form = ReservationForm(request.POST or None)
+    if form.is_valid():
+        form.save()
+        return redirect('reservation_list')
+
+    return render(request, 'update_reservation'
+    {'event':event,
+    'form':form})
+
