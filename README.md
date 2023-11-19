@@ -1,4 +1,4 @@
- BOOKING SYSTEM:
+EVENT MANAGEMENT SYSTEM:
 
 ## Purpose of the Website
 
