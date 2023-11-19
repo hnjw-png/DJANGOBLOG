@@ -61,7 +61,8 @@ I choose the font 'lato' this font has a nice clear look, which is a little bit 
 
 
 # Wireframes
-ADD WIREFRAMES.
+
+## Site structure diagram:
 
 ## Features
 
