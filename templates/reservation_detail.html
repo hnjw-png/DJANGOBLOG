@@ -15,12 +15,12 @@
     </ul>
     {% if user.is_authenticated %}
         {% if user == reservation.organizer %}
-           <a class = 'buttonfunny' href="{% url 'create_reservation' %}"><button class = 'button-create' >Create Reservation</button></a>
-            <a class = 'buttonfunny' href ="{%url 'update_reservation' reservation.id %}"><button class = 'button-create'>Update Reservation</button></a>
-            <a class = 'buttonfunny' href ="{%url 'delete_reservation' reservation.id  %}"><button class = 'button-create'>Delete Reservation</button></a>
+           <a class = 'buttonf' href="{% url 'create_reservation' %}"><button class = 'button-detail' >Create Reservation</button></a>
+            <a class = 'buttonf' href ="{%url 'update_reservation' reservation.id %}"><button class = 'button-detail'>Update Reservation</button></a>
+            <a class = 'buttonf' href ="{%url 'delete_reservation' reservation.id  %}"><button class = 'button-detail'>Delete Reservation</button></a>
         {% endif %}
     {% else %}
         <p class = 'info' >Please log in to create your own event.</p>
-        <a class = 'buttonfunny' href ="{%url 'register_reservation' reservation.id  %}"><button class = "button-create">Log in</button></a>
+        <a class = 'buttonf' href ="{%url 'register_reservation' reservation.id  %}"><button class = "button-detail">Log in</button></a>
     {% endif %}
     {% endblock %}

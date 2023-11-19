@@ -23,7 +23,7 @@
 }
 
 .main-bg {
-    background: url(/static/media/concert.jpg) 50% 0 no-repeat fixed;
+    background: url(/static/media/concert.jpg) 0 no-repeat fixed;
 }
 
 .card {
@@ -112,7 +112,9 @@
 
 }
 
-.create {
+/*front page reservation list buttons */
+
+.button-create {
 
         font-style: normal;
         font-family: 'Lato', sans-serif;
@@ -120,37 +122,60 @@
         font-weight: 10;
         text-decoration: none;
         text-align: center;
-        margin-left: 22%;
     
+    }
+
+
+ .buttonfunny {
+
+    
+        margin-left: auto;
+        margin-right: auto;
         
         
     
     }
 
-.button-create {
 
-    background-color: #a28089;
-    color: #fff;
+/*create create button position*/
+
+.create {
+
+    font-style: normal;
+    font-family: 'Lato', sans-serif;
+    font-size: 30px;
+    font-weight: 10;
+    color: white;
+    text-decoration: none;
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+
+}
+
+/* reservation details three buttons*/
+.button-detail {
+
+    font-style: normal;
+    font-family: 'Lato', sans-serif;
+    font-size: 50px;
+    font-weight: 10;
+    text-decoration: none;
     text-align: center;
 
 }
 
 
- .buttonfunny {
+.buttonf {
 
-        font-style: normal;
-        font-family: 'Lato', sans-serif;
-        font-size: 30px;
-        font-weight: 10;
-        color: white;
-        text-decoration: none;
-        
-        
+    text-align: center;
+    margin-left: 22%; 
     
-    }
+    
+    
 
-
-
+}
 .reservation {
     font-size: 40px;
     text-align: center;
@@ -214,6 +239,8 @@
     font-size: 50px;
     font-family: 'Lato', sans-serif;
     color: white;
+    font-weight: bold;
+    text-align: center;
 
 }
 
@@ -231,6 +258,33 @@ form {
     text-align: center;
 }
 
+
+/*home image */
+
+.eventpeople {
+
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 50%;
+   margin-top: 20px;
+}
+
+/* nav and button hover*/
+
+
+a:hover {
+    background-color: #04AA6D; /* Green */
+    color: white;
+  }
+
+button:hover {
+    background-color: #04AA6D; /* Green */
+    color: white;
+
+
+}
+  
 /*media query over 768px */
 @media (min-width: 768px) {
     
@@ -254,7 +308,7 @@ form {
     .create {
 
         font-style: normal;
-        font-family: 'Dancing Script', cursive;
+        font-family: 'Lato', sans-serif;
         font-size: 55px;
         font-weight: 10;
         color: #a28089;
@@ -272,7 +326,7 @@ form {
   .register {
 
     font-style: normal;
-    font-family: 'Dancing Script', cursive;
+    font-family: 'Lato', sans-serif;
     font-size: 50px;
     font-weight: 10;
     color: #a28089;
