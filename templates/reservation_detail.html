@@ -10,7 +10,7 @@
         {% for client in clients %}
             <li class = 'info'>{{ client.user.username }}</li>
         {% empty %}
-            <li class = 'info'>No Clients yet.</li>
+            <li class = 'info'>Not avaliable yet.</li>
         {% endfor %}
     </ul>
     {% if user.is_authenticated %}
