@@ -1,1 +1,1 @@
-web: gunicorn DJANGOBLOG.wsgi
+web: gunicorn bookingblog.wsgi

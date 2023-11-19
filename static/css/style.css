@@ -153,8 +153,8 @@ body {
 
     font-size: 50px;
     text-align: center;
-    color: #a28089;
-    font-family: 'Dancing Script', cursive;
+    color: black;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
     text-shadow: 1px 1px 2px white, 0 0 1em lavender, 0 0 0.2em lightcyan;
     font-weight: bolder;
     
@@ -179,7 +179,7 @@ body {
     font-size: 30px;
     text-align: center;
     font-style: italic;
-    color: #c27c8f;
+    color: #522a35;
     font-family: 'lobster', sans-serif;
 
 }
@@ -187,12 +187,12 @@ body {
 .create {
 
         font-style: normal;
-        font-family: 'Dancing Script', cursive;
-        font-size: 75px;
+        font-family: 'Monserrat', Arial, Helvetica, sans-serif;
+        font-size: 70px;
         font-weight: 10;
         color: #a28089;
         text-decoration: none;
-        text-align: center; 
+        
         
     
     }
