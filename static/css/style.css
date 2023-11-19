@@ -121,7 +121,7 @@
         font-size: 50px;
         font-weight: 10;
         text-decoration: none;
-        text-align: center;
+        
     
     }
 
@@ -141,15 +141,12 @@
 
 .create {
 
-    font-style: normal;
-    font-family: 'Lato', sans-serif;
-    font-size: 30px;
-    font-weight: 10;
-    color: white;
+
+    display: flex;
+    margin: auto;
+    justify-content: center;
     text-decoration: none;
-    margin-left: auto;
-    margin-right: auto;
-    
+    border: none;
     
 
 }
@@ -285,54 +282,3 @@ button:hover {
 
 }
   
-/*media query over 768px */
-@media (min-width: 768px) {
-    
-    .create {
-
-        font-style: normal;
-        font-family: 'Lato', sans-serif;
-        font-size: 65px;
-        font-weight: 10;
-        color: #a28089;
-        text-decoration: none;
-        text-align: center; 
-        margin-left: 450px;
-        
-    
-    }
-  }
-
-  @media (max-width: 280px) {
-
-    .create {
-
-        font-style: normal;
-        font-family: 'Lato', sans-serif;
-        font-size: 55px;
-        font-weight: 10;
-        color: #a28089;
-        text-decoration: none;
-        text-align: center; 
-        
-        
-    
-    }
-
-  }
-
-  @media (min-width: 768px) {
-
-  .register {
-
-    font-style: normal;
-    font-family: 'Lato', sans-serif;
-    font-size: 50px;
-    font-weight: 10;
-    color: #a28089;
-    text-decoration: none;
-    margin-inline-start: 17%;   
-
-}
-
-  }
