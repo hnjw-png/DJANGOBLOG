@@ -62,6 +62,14 @@ I choose the font 'lato' this font has a nice clear look, which is a little bit 
 
 # Wireframes
 
+* Diagram of site structure.
+![Skärmbild (175)](https://github.com/hnjw-png/DJANGOBLOG/assets/120515252/3c8f9487-df98-48aa-a8a2-2c4562b1bbb8)
+
+* Buttons and nav names
+![Skärmbild (176)](https://github.com/hnjw-png/DJANGOBLOG/assets/120515252/e8133055-034c-41bf-9a13-c26bd4887b69)
+
+
+
 ## Site structure diagram:
 
 ## Features
