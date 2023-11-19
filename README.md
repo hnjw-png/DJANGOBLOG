@@ -47,15 +47,17 @@ When the visitor first visits the reservation planning system:
 
 The colour scheme is that of a white background to keep things professional and then pops of colour in the site. The colours will be based upon more natural hues, such as:
 
-* light purple, pink/purple hue, blue, white. Black and pink font(Mixed), consistent in the homepage, follows same hues in ajoining pages.
-* light blue, white, light purple consistent in the reservation form page and the reservation detail page. Black font.
+* light purple, pink/purple hue, blue, white. Black aand purple, consistent in the homepage, follows same hues in ajoining pages. Same color coordinated with navheader and main header(the brand name event101)
+* light blue, white, light purple consistent in the reservation form page and the reservation detail page and form page.
 * The sign in/out and sign up page is kept to the basic allauth layout, but in the future i intend to beautify that to match the rest of the site better.
 
-  I researched color combination and hues, to understand how to balance colors, blend them and make whats needed to stand out, stant ot clearly. I like the lighter hues of color, which give th site a light friendly feel, which is consistant of the website intention to create a relaxed notebook to create events.
+  I researched color combination and hues, to understand how to balance colors, blend them and make whats needed to stand out, stand out clearly. I like the lighter hues of color, which give th site a light friendly feel, which is consistant of the website intention to create a relaxed notebook to create events. 
+
+  The background image is consistent on each page of the site. Its colors match the overall style of the site.
 
 # Typography
 
-I choose the font 'dancing-script' this font has a nice clear look, which is a little bit like clear fancy handwriting, this stands out well and fits the style of the restaurant. I also used the more striaght Lato and san-serif in much of the website to keep the writing clear and restricted dancing script to titles and paragraphs are supossed to start out more specially, like the website header and the website buttons.
+I choose the font 'lato' this font has a nice clear look, which is a little bit like clear fancy handwriting, this stands out well and fits the style of the website, which should hae a professional feel.
 
 
 # Wireframes
@@ -155,17 +157,39 @@ Languages used:
 * Fontawesome icons downloaded from Font Awesome.com.
 * GitHub to store the projects code.
 * Gitpages to deploy the site.
+* heroku to deploy app
 * Chrome Developer Tools for layout and responsive testing.
 * favICO.com for creating favicon.
 * W3 Validator to test html and css code.
-
-## Sources
+* elephantsQl for database
+* cloudinary for storage
 
 ## Testing
+
+### Django Testing
+
+I am testing my code using the testing function in django, i am writing the code using the testcase and testing the forms.py, models.py, views.py. I am testing to check for example the title has to be filled in the form.
+
+You want the sqlite database when testing, so comment out the one where you get the DATABASE_URL from the environment.
+And make sure to reverse that when you're deploying again!
+
+### Manual Testing
+
+* I have tested the site as a logged in user who is the admin and everything works as intended.
+* I have tested the site with a test login to see the website behaves as expected when you are a logged in user who is not a admin.
+* I have tested the website while being logged out, and everything works as expected.
+* Log in appears when log in button appears, when create reservation is clicked, when the user is not logged in, it redirects to log in page.
+* After you are logged in you are automatically redirectd back to the website.
+* When you log out you are redirected abck ot the website as well.
+* Update and delete work as expected.
+* Admin set up correctly, and when a reservation is added, is automatically appears in the website.
+
 
 
 
 # Lighthouse: 
+
+
 
 # CSS and HTML Validator:
 
