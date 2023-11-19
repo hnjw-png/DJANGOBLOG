@@ -57,32 +57,48 @@
 
 #purple {
     background-color: #d0bdf4;
+    text-align: center;
 
+}
+
+/*header decoration*/
+
+.brand-header {
+    font-family: Lato, sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    color: #4A4A4F;
+    
+}
+
+.red-o-header {
+    color: #a28089;
+    font-size: 55px;
+}
+
+.thin-Header {
+    font-weight: 300;
 }
 
 
 .reserve_detail {
 
-    font-size: 50px;
+    font-size: 20px;
     text-align: center;
-    color: black;
+    color: white;
     font-family: 'Lato', sans-serif;
     font-weight: bolder;
     
 
 }
 
-.subtitle {
-
-    font-size: 15px;
-    font-weight: bolder;
-    text-align: center;
-    font-style: italic;
-    color: black;
+.brand-info {
     font-family: Lato, sans-serif;
-    font-weight: bold;
+    font-size: 2rem;
+    font-weight: 700;
+    color: white;
+    text-align: center;
     
-
 }
 
 .list_title {
@@ -90,8 +106,9 @@
     font-size: 30px;
     text-align: center;
     font-style: italic;
-    color: #522a35;
+    color: white;
     font-family: 'Lato', sans-serif;
+    font-weight: bolder;
 
 }
 
@@ -99,24 +116,33 @@
 
         font-style: normal;
         font-family: 'Lato', sans-serif;
-        font-size: 70px;
-        background-color: none;
+        font-size: 50px;
         font-weight: 10;
         text-decoration: none;
         text-align: center;
+        margin-left: 22%;
+    
         
         
     
     }
+
+.button-create {
+
+    background-color: #a28089;
+    color: #fff;
+    text-align: center;
+
+}
 
 
  .buttonfunny {
 
         font-style: normal;
         font-family: 'Lato', sans-serif;
-        font-size: 50px;
+        font-size: 30px;
         font-weight: 10;
-        color: black;
+        color: white;
         text-decoration: none;
         
         
@@ -126,7 +152,7 @@
 
 
 .reservation {
-    font-size: 30px;
+    font-size: 40px;
     text-align: center;
     font-style: italic;
     color: #a28089;
@@ -135,21 +161,24 @@
 }
 
 .reserve_title {
-    font-size: 30px;
+    font-size: 50px;
     text-align: center;
-    font-family: 'Dancing Script', cursive;
+    font-family: 'Lato', sans-serif;
     text-decoration: underline;
+    color: white;
     
 }
 
 /* reservation_detail css */
 
 .info {
-    font-size: 20px;
+    font-size: 40px;
     text-align: center;
     font-style: normal;
     font-family: 'Lato', sans-serif;
     list-style-type: none;
+    color: white;
+    font-weight: bolder;
 
 }
 
@@ -183,8 +212,23 @@
 .new_reservation {
 
     font-size: 50px;
-    font-family: 'Dancing Script', cursive;
-    text-decoration: underline;
+    font-family: 'Lato', sans-serif;
+    color: white;
+
+}
+
+/* form labels */
+
+label {
+    color: white;
+    font-weight: bold;
+    display: block;
+    font-size: 30px;
+  }
+
+form {
+
+    text-align: center;
 }
 
 /*media query over 768px */
@@ -199,7 +243,7 @@
         color: #a28089;
         text-decoration: none;
         text-align: center; 
-        margin-left: 200px;
+        margin-left: 450px;
         
     
     }

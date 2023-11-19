@@ -1,14 +1,14 @@
 {% extends "base.html" %}
 {% block content %}
 {% load static %}
-    <div id = 'purple'><h2 class ="reserve_detail" >Create a Personlised Event at Event 101! </h2>
-    <h3 class ="subtitle">Plan your own events. And share them. The reservation must be detailed with full details of time, location and type. Otherwise they will be subject to deletion by admin. :)</h3></div>
-    <h4 class ="list_title">Create your own event or look below for List of upcoming events: </h4>
+    <div id = 'purple'><span class="brand-header">E<span class="red-o-header">V</span>ENT<span
+        class="thin-header">|101</span></span></a>
+    <p class = "brand-info">Welcome! Please Log in to create, update, delete your own events. </p></div>
    <p id = 'reserve_list'><p>
-   <a class = 'create' href="{% url 'create_reservation' %}"><button>Create Reservation</button></a>
+   <a class = 'create' href="{% url 'create_reservation' %}"><button class = 'button-create'>Create Reservation</button></a><p class = "brand-info" >View existing events:</p>
         {% for reservation in reservations %}
             <li class ='reservation'>
-                <a class = 'buttonfunny' href="{% url 'reservation_detail' reservation.id %}"><button>{{ reservation.title }}</a></button>
+                <a class = 'buttonfunny' href="{% url 'reservation_detail' reservation.id %}"><button class = 'button-create'>{{ reservation.title }}</a></button>
             </li>
             
         {% empty %}
