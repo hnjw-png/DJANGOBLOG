@@ -63,14 +63,22 @@ I choose the font 'lato' this font has a nice clear look, which is a little bit 
 # Wireframes
 
 * Diagram of site structure.
-![Skärmbild (175)](https://github.com/hnjw-png/DJANGOBLOG/assets/120515252/3c8f9487-df98-48aa-a8a2-2c4562b1bbb8)
+![Skärmbild (177)](https://github.com/hnjw-png/DJANGOBLOG/assets/120515252/6b24e92d-ea37-4551-ae20-b79162a69465)
+
 
 * Buttons and nav names
 ![Skärmbild (176)](https://github.com/hnjw-png/DJANGOBLOG/assets/120515252/e8133055-034c-41bf-9a13-c26bd4887b69)
 
+* Homepage/reservation list page design
+  
+![Skärmbild (179)](https://github.com/hnjw-png/DJANGOBLOG/assets/120515252/39d1b752-966d-4e30-b74b-2d6f035cff82)
 
+*Reservation detail page
+![Skärmbild (180)](https://github.com/hnjw-png/DJANGOBLOG/assets/120515252/9db33cab-6061-441e-aa1e-bb57b2ac0c0f)
 
-## Site structure diagram:
+* Reservation form page
+![Skärmbild (181)](https://github.com/hnjw-png/DJANGOBLOG/assets/120515252/f88edcf3-3bf6-42e7-a96d-0dcd670b3862)
+
 
 ## Features
 
