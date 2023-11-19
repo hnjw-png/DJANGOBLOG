@@ -23,7 +23,7 @@ When the visitor first visits the reservation planning system:
 * A logged user, has full control over their own events, they can update, delete and add new reservation whenever they please.
 * When the create reservation button is clicked by a logged in user, they wll redirected to the reservarion form, and there they will be able to fill out a form and add their reservaion to the database. This will be redirected to their new reservation details.
 * In the future we will have a social media account and have the buttons in place, but for now they not functional.
-* The website actively explains its functionality to its user. (PERSONAL NOTE: DO THIS.)
+* The website actively explains its functionality to its user. 
 
 ## Frequent Visitor goals:
 
@@ -78,7 +78,7 @@ I choose the font 'lato' this font has a nice clear look, which is a little bit 
 
 * Reservation form page
 ![Skärmbild (181)](https://github.com/hnjw-png/DJANGOBLOG/assets/120515252/f88edcf3-3bf6-42e7-a96d-0dcd670b3862)
-
+.
 
 ## Features
 
