@@ -270,13 +270,10 @@ form {
 /* nav and button hover*/
 
 
-a:hover {
-    background-color: #04AA6D; /* Green */
-    color: white;
-  }
+
 
 button:hover {
-    background-color: #04AA6D; /* Green */
+    background-color: lightblue; /* Green */
     color: white;
 
 
