@@ -23,8 +23,7 @@
 }
 
 .main-bg {
-    background-image: url("/static/media/concert.jpg") 50% 0 no-repeat fixed;
-    
+    background: url("/static/media/concert.jpg") 50% 0 no-repeat fixed;
 }
 
 .card {
