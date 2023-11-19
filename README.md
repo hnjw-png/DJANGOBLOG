@@ -90,26 +90,36 @@ I choose the font 'lato' this font has a nice clear look, which is a little bit 
 
 This website fits to size on all types of devices. From laptop to mobile phone. 
 
+* See responsiveness screenshot: 
+
+![Skärmbild (182)](https://github.com/hnjw-png/DJANGOBLOG/assets/120515252/b84c0318-6465-46b5-bd48-d97e3d8cc2ca)
+
+
 
 ## Homepage; nav-bar :
 
 The homepage consists of a clear nav-bar which is responsive in all screen settings. The homepages nav-bar will appear differently according to if your are a logged in user or not.
 When you are logged in, you will see the nav-bar names: Home, Create Reservation, Logout. When you are logged out you will see the nav-bar names: Home, Create Reservation, Register, Login.
+![Skärmbild (193)](https://github.com/hnjw-png/DJANGOBLOG/assets/120515252/5d73244c-940f-4ba4-b8dc-913cf519cb47)
 
 ## Homepage Header Section :
 
-The homepage header starts with the header title 'Create a Personlised Event at Event 101!' This title is decorated with shading and multiple colors to match the overall color scheme of the website, this makes the title stand out even more...and shows the purpose of the webpage absolutely directly. The backgorund color is a simalar purple which makes the site lool very stylish and the color remains the same for the rules purpose statement below the header;
-Here you have a statement about the rules and the purpose of the site more specifically. This is a friendly notice to users to keep things detailed, otherwise admin will delete the post.
+The homepage header starts with the header title 'Create a Personlised Event at Event 101!' This title is decorated with shading and multiple colors to match the overall color scheme of the website, this makes the title stand out even more...and shows the purpose of the webpage absolutely directly. The backgorund the concery colors photo which makes the site look very stylish and the color remains the same for the rules purpose statement below the header;
+
 
 Thereafter you have another section which color changes to light blue, to correlate with the websites color scheme and to make each title stand out individually.
+![Skärmbild (189)](https://github.com/hnjw-png/DJANGOBLOG/assets/120515252/9cbb6176-8e6e-4de1-a584-a66151b2d22d)
+
+
 
 ## Homepage main page (reservations list and create reservations buttons) :
 
 In the main page of the site, you will have a button to create a reservation, whether you're are logged in or not, you will be able to see and click this button. But if you are not logged in you wil be redirected to the login page. If you are, you will be redirected to the resveration form as previously stated. The create reservation is a bit bigger than the list of reservation button, the reason is to make it stand out. 
+![Skärmbild (192)](https://github.com/hnjw-png/DJANGOBLOG/assets/120515252/eaa6943b-1a77-45e5-87cb-e3e3d7f3ed8d)
 
 The reservations list buttons are also visable to a user whether they are logged in or not. When you click the reservation you will be redirected to the resveratio detail page, regarding the reservation you clicked. 
 
-The background color is a daker pink to make the main page stand out more, it coincides with the white buttons and black, dancing script fancy font.
+The background color is a concert color image to make the main page stand out more, it coincides with the white buttons and black, dancing script fancy font.
 
 
 
@@ -122,7 +132,8 @@ The footer is light blue, to match the rest of the site and head nav bar. There 
 
 ### Reservation Detail Page:
 
-When you add a new reservation, it will render on the reservation details page, the way to access this page is to click the reservation you want to view on the homepage(reservation list). Here whilst you are logged in and accessing on of your own reservation, you will see the buttons, update reservation, delete reservation  and creat reservation.
+When you add a new reservation, it will render on the reservation details page, the way to access this page is to click the reservation you want to view on the homepage(reservation list). Here whilst you are logged in and accessing on of your own reservation, you will see the buttons, update reservation, delete reservation  and create reservation.
+![Skärmbild (185)](https://github.com/hnjw-png/DJANGOBLOG/assets/120515252/2d7fefdc-93f2-482c-af76-e4cf79e3c5b4)
 
 When you are logged out, you can click any reservation from the reservation list(homepage)and you will be able to view the reservation details on the reservation detail view, but instead of seeing all the buttons as you would when your logged in, you will see the button log in below the reservation details.
 
@@ -131,16 +142,24 @@ The nar bar appears the same as in the homepage, deu there being all the correct
 
 
 ### Reservation form page :
+![Skärmbild (184)](https://github.com/hnjw-png/DJANGOBLOG/assets/120515252/1539852d-7770-46ac-97e8-a06ec4a805bd)
 
 The reservation form will render when you click any of the create reservation buttons on the website, whilst logged in. As well as rendering when you click the create a reservation nav button, als when logged in. The reservation form requires all fields to be filled out correctly to add the event to the homepage(database) There will be a add/submit button at the bottom of the form and if you have mis-filled in something it will inform you, it also has a default setting so the user knows ho to fill out the date and time in the form.
+Here you have a statement about the rules and the purpose of the site more specifically. This is a friendly notice to users to keep things detailed, otherwise admin will delete the post.
+![Skärmbild (185)](https://github.com/hnjw-png/DJANGOBLOG/assets/120515252/4217ce51-0f74-4efa-973b-ab1c9b67a2e8)
+
 
 ## Update and update button :
 
-When you are logged in and you have selected your own reservation, the update button will appear and you will then be redirected to the Reservation form, except it will have the details of the reservation you want to edit inside it already. Then the user is free to edit the reservationd then add/save it again. And thereafter they will be redirected so they can see their updates reservation.
+When you are logged in and you have selected your own reservation, the update button will appear and you will then be redirected to the Reservation form, except it will have the details of the reservation you want to edit inside it already. Then the user is free to edit the reservation then add/save it again. And thereafter they will be redirected so they can see their updates reservation.
+![Skärmbild (187)](https://github.com/hnjw-png/DJANGOBLOG/assets/120515252/411b43cb-8580-469c-8d72-995728d8cbd6)
+
+
 
 ## Delete and delete button :
 
 When you are logged in and you have selected your own reservation, the delete button will appear and there once you press the button your reservation will be automatically deleted. A way to improve thisin the future is the have https response message appear asking if the user is sure they want to delete.
+![Skärmbild (191)](https://github.com/hnjw-png/DJANGOBLOG/assets/120515252/c015d374-73cb-47e1-8278-80f70366eb26)
 
 ## Create reservation button on reservation details page :
 
@@ -154,13 +173,18 @@ Here the automatic allauth setting has been implemented, so that we get a automa
 
 ## Admin page:
 
-The admin page have all options to ad reservations, update user, 
-
-
+The admin page have all options to delete, edit and add all reservations.
+![Skärmbild (194)](https://github.com/hnjw-png/DJANGOBLOG/assets/120515252/b3c10a36-7b1d-4fa9-ba6f-e18d56f81182)
+![Skärmbild (195)](https://github.com/hnjw-png/DJANGOBLOG/assets/120515252/2cdcd59b-e23f-4447-9e7e-fb92e8bd9c9f)
+![Skärmbild (196)](https://github.com/hnjw-png/DJANGOBLOG/assets/120515252/ca4ac186-9a32-44a9-8477-d5eff77b3675)
 
 # Possible Future Features:
 
-
+* Interactive social account section.
+* email verification
+* image appearing in event upload
+* have a calender attached to the date in the form.
+* change the time settings in the form.
 
 # Techologies used
 
@@ -230,5 +254,14 @@ And make sure to reverse that when you're deploying again!
 
 # sources
 
-background image = https://pixabay.com/photos/concert-confetti-party-event-club-2527495/
+* background image = https://pixabay.com/photos/concert-confetti-party-event-club-2527495/
 a free to use commericial image from pixbay.
+
+* homepage image =
+  https://pixabay.com/photos/people-happy-happy-people-joy-1230872/
+
+a free to use image from pixbay.
+
+*code institute learning content.
+
+*static overflow for tips
