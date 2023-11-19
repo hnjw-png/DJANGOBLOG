@@ -10,12 +10,12 @@ from .forms import ReservationForm
 
 def reservation_list(request):
     reservations = Reservation.objects.all()
-    return render(request, '/workspace/DJANGOBLOG/templates/reservation_list.html', {'reservations': reservations})
+    return render(request, 'reservation_list.html', {'reservations': reservations})
 
 def reservation_detail(request, reservation_id):
     reservation = get_object_or_404(Reservation, pk=reservation_id)
     client = Client.objects.filter(reservation=reservation)
-    return render(request, '/workspace/DJANGOBLOG/templates/reservation_detail.html', {'reservation': reservation, 'client': client})
+    return render(request, 'reservation_detail.html', {'reservation': reservation, 'client': client})
 
 @login_required
 def create_reservation(request):
@@ -28,7 +28,7 @@ def create_reservation(request):
             return redirect('reservation_detail', reservation_id=reservation.id)
     else:
         form = ReservationForm()
-    return render(request, '/workspace/DJANGOBLOG/templates/reservation_form.html', {'form': form})
+    return render(request, 'reservation_form.html', {'form': form})
 
 @login_required
 def register_reservation(request, reservation_id):
