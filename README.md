@@ -82,11 +82,14 @@ I choose the font 'lato' this font has a nice clear look, which is a little bit 
 
 ## Features
 
+* Update, delete cnd create reservation functions.
+
+*
+
 # Responsiveness:
 
 This website fits to size on all types of devices. From laptop to mobile phone. 
 
-# Features:
 
 ## Homepage; nav-bar :
 
