@@ -103,6 +103,8 @@ The homepage consists of a clear nav-bar which is responsive in all screen setti
 When you are logged in, you will see the nav-bar names: Home, Create Reservation, Logout. When you are logged out you will see the nav-bar names: Home, Create Reservation, Register, Login.
 ![Skärmbild (193)](https://github.com/hnjw-png/DJANGOBLOG/assets/120515252/5d73244c-940f-4ba4-b8dc-913cf519cb47)
 
+![Skärmbild (208)](https://github.com/hnjw-png/DJANGOBLOG/assets/120515252/7cf7d4b4-e940-4b55-868a-5295c0f37350)
+
 ## Homepage Header Section :
 
 The homepage header starts with the header title 'Event 101!' This title is decorated with multiple colors to match the overall color scheme of the website and of course the logo, this makes the title stand out even more...and shows the purpose of the webpage absolutely directly. The backgorund the concery colors photo which makes the site look very stylish and the color remains the same for the rules purpose statement below the header;
