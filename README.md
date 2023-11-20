@@ -251,7 +251,8 @@ And make sure to reverse that when you're deploying again!
 
 # Deployment:
 
-
+* I have deployed my application to heroku: 
+* In order to deploy my website to heroku, I have set in settings.py to DEBUG = 'False'
 # sources
 
 * background image = https://pixabay.com/photos/concert-confetti-party-event-club-2527495/
