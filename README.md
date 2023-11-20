@@ -105,7 +105,7 @@ When you are logged in, you will see the nav-bar names: Home, Create Reservation
 
 ## Homepage Header Section :
 
-The homepage header starts with the header title 'Create a Personlised Event at Event 101!' This title is decorated with shading and multiple colors to match the overall color scheme of the website, this makes the title stand out even more...and shows the purpose of the webpage absolutely directly. The backgorund the concery colors photo which makes the site look very stylish and the color remains the same for the rules purpose statement below the header;
+The homepage header starts with the header title 'Event 101!' This title is decorated with multiple colors to match the overall color scheme of the website and of course the logo, this makes the title stand out even more...and shows the purpose of the webpage absolutely directly. The backgorund the concery colors photo which makes the site look very stylish and the color remains the same for the rules purpose statement below the header;
 
 
 Thereafter you have another section which color changes to light blue, to correlate with the websites color scheme and to make each title stand out individually.
@@ -118,9 +118,13 @@ Thereafter you have another section which color changes to light blue, to correl
 In the main page of the site, you will have a button to create a reservation, whether you're are logged in or not, you will be able to see and click this button. But if you are not logged in you wil be redirected to the login page. If you are, you will be redirected to the resveration form as previously stated. The create reservation is a bit bigger than the list of reservation button, the reason is to make it stand out. 
 ![Skärmbild (192)](https://github.com/hnjw-png/DJANGOBLOG/assets/120515252/eaa6943b-1a77-45e5-87cb-e3e3d7f3ed8d)
 
-The reservations list buttons are also visable to a user whether they are logged in or not. When you click the reservation you will be redirected to the resveratio detail page, regarding the reservation you clicked. 
+The reservations list buttons are also visable to a user whether they are logged in or not.
+![Skärmbild (218)](https://github.com/hnjw-png/DJANGOBLOG/assets/120515252/8efa1c07-f3f6-4955-9480-0f46a5b8afb3)
+When you click the reservation you will be redirected to the reservation detail page, regarding the reservation you clicked. 
+![Skärmbild (213)](https://github.com/hnjw-png/DJANGOBLOG/assets/120515252/80a81a55-7641-4475-bb8e-ce19ec06746b)
 
-The background color is a concert color image to make the main page stand out more, it coincides with the white buttons and black, dancing script fancy font.
+The background color is a concert color image to make the main page stand out more, it coincides with the white buttons and black, lato font.
+
 
 
 
@@ -129,6 +133,7 @@ The background color is a concert color image to make the main page stand out mo
 
 The footer is light blue, to match the rest of the site and head nav bar. There you will see who created the website (me, Holly Nicole), you will also see icons to various social media website, right now they are inactive due to no social media account for the reservation management system.
 
+![Skärmbild (215)](https://github.com/hnjw-png/DJANGOBLOG/assets/120515252/c199e6bc-6ef8-499a-92b3-2c9699dae1c0)
 
 
 ### Reservation Detail Page:
