@@ -3,6 +3,7 @@ EVENT MANAGEMENT SYSTEM:
 ## Purpose of the Website
 
 The purpose of the website Events101, is to give a logged-in user access to this personlised events management system. As a logged in user you should be able to a create a new reservation, update your existing reservations, and delete your own reservation. Te website should act a easy way to keep to date with your own reservations, this website is to used to personally create and keep track of your own events like inside a virtual sketchbook. You will be able to see other peoples reservations, but your will not be able to edit them. You can only be able edit your own. This site is way to share your events with your friends and keep a personal plan you can access at a click of  button. These reservations shoud be detailed, and have a clear, date, time and location. Otherwise these will be subject to deletion by the adminstrator, this is stated on the website.
+![Skärmbild (209)](https://github.com/hnjw-png/DJANGOBLOG/assets/120515252/96c69bec-122e-42e3-b129-9d8eafde8547)
 
 # User Experience/User Interface (UX/UI)
 
