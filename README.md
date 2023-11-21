@@ -3,7 +3,8 @@ EVENT MANAGEMENT SYSTEM:
 ## Purpose of the Website
 
 The purpose of the website Events101, is to give a logged-in user access to this personlised events management system. As a logged in user you should be able to a create a new reservation, update your existing reservations, and delete your own reservation. Te website should act a easy way to keep to date with your own reservations, this website is to used to personally create and keep track of your own events like inside a virtual sketchbook. You will be able to see other peoples reservations, but your will not be able to edit them. You can only be able edit your own. This site is way to share your events with your friends and keep a personal plan you can access at a click of  button. These reservations shoud be detailed, and have a clear, date, time and location. Otherwise these will be subject to deletion by the adminstrator, this is stated on the website.
-![Skärmbild (209)](https://github.com/hnjw-png/DJANGOBLOG/assets/120515252/96c69bec-122e-42e3-b129-9d8eafde8547)
+![Skärmbild (243)](https://github.com/hnjw-png/DJANGOBLOG/assets/120515252/ad2ac701-8eca-4ace-b884-6294f72708f0)
+
 
 # User Experience/User Interface (UX/UI)
 
@@ -81,7 +82,7 @@ I choose the font 'lato' this font has a nice clear look, which is a little bit 
 
 *Reservation detail page
 * Here I have layed out how the reservation detail page, with a clear vision of how it will look for each reservation detail. The reservation detail page will automatically update, delete. As well as when a user or a admin adds a reservation it will automatically appear in the reservation page on the homepage.
-![Skärmbild (180)](https://github.com/hnjw-png/DJANGOBLOG/assets/120515252/9db33cab-6061-441e-aa1e-bb57b2ac0c0f)
+![Skärmbild (240)](https://github.com/hnjw-png/DJANGOBLOG/assets/120515252/efdf49f5-c857-4de9-a06e-3e46e3e95208)
 
 * Reservation form page
 
