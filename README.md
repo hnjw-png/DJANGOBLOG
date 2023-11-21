@@ -295,25 +295,13 @@ I am testing my code using the testing function in django, i am writing the code
 ![Skärmbild (249)](https://github.com/hnjw-png/DJANGOBLOG/assets/120515252/6ce0e23a-6289-4256-b2be-9ef366b1795b)
 
 
-## Lighthouse
-
-* ![Skärmbild (236)](https://github.com/hnjw-png/DJANGOBLOG/assets/120515252/70232f03-532e-433d-8881-e2ff579370e6)
-
-* ![Skärmbild (237)](https://github.com/hnjw-png/DJANGOBLOG/assets/120515252/7cec59ea-b038-49dc-abfa-8790a09be779)
-
-* ![Skärmbild (238)](https://github.com/hnjw-png/DJANGOBLOG/assets/120515252/1c11e7d2-f190-441d-b94d-efc2e8926d26)
-
-* ![Skärmbild (239)](https://github.com/hnjw-png/DJANGOBLOG/assets/120515252/7316b27b-dc19-4388-8344-06ceddd20e20)
-
-
-
 # Bug fixes
 
 * A fix would be to add a  http response when you hit the delete button, to warn the user they are deleting their reservation.
 
 * Add email verification, so users can reaccess their accouns if passowrd is forgotten, through verification process.
 
-* 
+* Add easier functionality to date and time fields.
 
 # Deployment:
 
@@ -333,13 +321,13 @@ I am testing my code using the testing function in django, i am writing the code
 * background image = https://pixabay.com/photos/concert-confetti-party-event-club-2527495/
 a free to use commericial image from pixbay.
 
-* homepage image =
-  https://pixabay.com/photos/people-happy-happy-people-joy-1230872/
-
+* homepage image = https://pixabay.com/photos/people-happy-happy-people-joy-1230872/
 a free to use image from pixbay.
 
 * code institute learning content.
 
 * staticoverflow for tips.
 
-* 
+* base.html template code institute- editted  by me.
+
+* base nav-bar setting from code institute project- editted by me.
