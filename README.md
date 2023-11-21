@@ -64,28 +64,46 @@ I choose the font 'lato' this font has a nice clear look, which is a little bit 
 # Wireframes
 
 * Diagram of site structure.
-![Skärmbild (177)](https://github.com/hnjw-png/DJANGOBLOG/assets/120515252/6b24e92d-ea37-4551-ae20-b79162a69465)
+
+* This diagram shows the layout of the website, I have planned to use one model called Reservation and connect it to create reservation, register, create reservation, delete, update and login reqired views and urls. This will create a synamic website, which a user or owner can navigate easily throught the website without needing to press back button manually for example.
+   [Skärmbild (177)](https://github.com/hnjw-png/DJANGOBLOG/assets/120515252/6b24e92d-ea37-4551-ae20-b79162a69465)
 
 
 * Buttons and nav names
+
+* Here I have layed out how navigation will look on the nav bar and the type of buttons I will use in my application.
+  
 ![Skärmbild (176)](https://github.com/hnjw-png/DJANGOBLOG/assets/120515252/e8133055-034c-41bf-9a13-c26bd4887b69)
 
 * Homepage/reservation list page design
-  
+* Here I have designed the layout and general looks of the homepage.
 ![Skärmbild (179)](https://github.com/hnjw-png/DJANGOBLOG/assets/120515252/39d1b752-966d-4e30-b74b-2d6f035cff82)
 
 *Reservation detail page
+* Here I have layed out how the reservation detail page, with a clear vision of how it will look for each reservation detail. The reservation detail page will automatically update, delete. As well as when a user or a admin adds a reservation it will automatically appear in the reservation page on the homepage.
 ![Skärmbild (180)](https://github.com/hnjw-png/DJANGOBLOG/assets/120515252/9db33cab-6061-441e-aa1e-bb57b2ac0c0f)
 
 * Reservation form page
+
+* The form page is designed to be in the middle of the screen and should consist of about 5 questions, title, description, time, date, location.
 ![Skärmbild (181)](https://github.com/hnjw-png/DJANGOBLOG/assets/120515252/f88edcf3-3bf6-42e7-a96d-0dcd670b3862)
 .
 
 ## Features
 
-* Update, delete cnd create reservation functions.
+* Update, delete and create reservation functions.
 
-*
+* When a reservation is created you wil automatically redirected back to it.
+
+* When you log in or log out you will be redirected back to the website.
+
+* You can access your own reservation and other peoples reservations on the homepage, but can only edit or delete a reservation made by yourself.
+
+* You can view the website as a non-logged in user, but you will not have access to logged in user pages or functions like delete, edit and create reservations.
+
+* Anyone can join and log in and log out.
+
+* Only the admin can edit any reservation, from the admin page.
 
 # Responsiveness:
 
@@ -95,7 +113,11 @@ This website fits to size on all types of devices. From laptop to mobile phone.
 
 ![Skärmbild (182)](https://github.com/hnjw-png/DJANGOBLOG/assets/120515252/b84c0318-6465-46b5-bd48-d97e3d8cc2ca)
 
+* Mobile phone screenshot example :
 
+![Skärmbild (227)](https://github.com/hnjw-png/DJANGOBLOG/assets/120515252/7c5c7f13-d235-4fbf-b024-3976c5ac1f5f)
+
+![Skärmbild (226)](https://github.com/hnjw-png/DJANGOBLOG/assets/120515252/9133f091-1453-4dea-a680-6ff15ad5b665)
 
 ## Homepage; nav-bar :
 
@@ -103,9 +125,11 @@ The homepage consists of a clear nav-bar which is responsive in all screen setti
 When you are logged in, you will see the nav-bar names: Home, Create Reservation, Logout. When you are logged out you will see the nav-bar names: Home, Create Reservation, Register, Login.
 ![Skärmbild (193)](https://github.com/hnjw-png/DJANGOBLOG/assets/120515252/5d73244c-940f-4ba4-b8dc-913cf519cb47)
 
+![Skärmbild (208)](https://github.com/hnjw-png/DJANGOBLOG/assets/120515252/7cf7d4b4-e940-4b55-868a-5295c0f37350)
+
 ## Homepage Header Section :
 
-The homepage header starts with the header title 'Create a Personlised Event at Event 101!' This title is decorated with shading and multiple colors to match the overall color scheme of the website, this makes the title stand out even more...and shows the purpose of the webpage absolutely directly. The backgorund the concery colors photo which makes the site look very stylish and the color remains the same for the rules purpose statement below the header;
+The homepage header starts with the header title 'Event 101!' This title is decorated with multiple colors to match the overall color scheme of the website and of course the logo, this makes the title stand out even more...and shows the purpose of the webpage absolutely directly. The backgorund the concery colors photo which makes the site look very stylish and the color remains the same for the rules purpose statement below the header;
 
 
 Thereafter you have another section which color changes to light blue, to correlate with the websites color scheme and to make each title stand out individually.
@@ -118,17 +142,18 @@ Thereafter you have another section which color changes to light blue, to correl
 In the main page of the site, you will have a button to create a reservation, whether you're are logged in or not, you will be able to see and click this button. But if you are not logged in you wil be redirected to the login page. If you are, you will be redirected to the resveration form as previously stated. The create reservation is a bit bigger than the list of reservation button, the reason is to make it stand out. 
 ![Skärmbild (192)](https://github.com/hnjw-png/DJANGOBLOG/assets/120515252/eaa6943b-1a77-45e5-87cb-e3e3d7f3ed8d)
 
-The reservations list buttons are also visable to a user whether they are logged in or not. When you click the reservation you will be redirected to the resveratio detail page, regarding the reservation you clicked. 
+The reservations list buttons are also visable to a user whether they are logged in or not.
+![Skärmbild (218)](https://github.com/hnjw-png/DJANGOBLOG/assets/120515252/8efa1c07-f3f6-4955-9480-0f46a5b8afb3)
+When you click the reservation you will be redirected to the reservation detail page, regarding the reservation you clicked. 
+![Skärmbild (213)](https://github.com/hnjw-png/DJANGOBLOG/assets/120515252/80a81a55-7641-4475-bb8e-ce19ec06746b)
 
-The background color is a concert color image to make the main page stand out more, it coincides with the white buttons and black, dancing script fancy font.
-
-
-
+The background color is a concert color image to make the main page stand out more, it coincides with the white buttons and black, lato font.
 
 ## Footer :
 
 The footer is light blue, to match the rest of the site and head nav bar. There you will see who created the website (me, Holly Nicole), you will also see icons to various social media website, right now they are inactive due to no social media account for the reservation management system.
 
+![Skärmbild (215)](https://github.com/hnjw-png/DJANGOBLOG/assets/120515252/c199e6bc-6ef8-499a-92b3-2c9699dae1c0)
 
 
 ### Reservation Detail Page:
@@ -138,8 +163,7 @@ When you add a new reservation, it will render on the reservation details page, 
 
 When you are logged out, you can click any reservation from the reservation list(homepage)and you will be able to view the reservation details on the reservation detail view, but instead of seeing all the buttons as you would when your logged in, you will see the button log in below the reservation details.
 
-The nar bar appears the same as in the homepage, deu there being all the correct templates in place, including base.html.
-
+The nar bar appears the same as in the homepage, due to  there being all the correct templates in place, including base.html.
 
 
 ### Reservation form page :
@@ -164,7 +188,10 @@ When you are logged in and you have selected your own reservation, the delete bu
 
 ## Create reservation button on reservation details page :
 
-This button beahves the same as the create reservation button on the homepage, you are directed to the reservation form page.(as long as you are logged in).
+This button beahves the same as the create reservation button on the homepage, you are directed to the reservation form page.(as long as you are logged in). When you hover over any button it will turn blue.
+![Skärmbild (223)](https://github.com/hnjw-png/DJANGOBLOG/assets/120515252/8076ae02-547c-4f61-9518-18582687559c)
+
+![Skärmbild (225)](https://github.com/hnjw-png/DJANGOBLOG/assets/120515252/527429e3-52a5-417b-9040-68ae5cc55fdb)
 
 ## Log in, log out, sign up:
 
@@ -182,10 +209,11 @@ The admin page have all options to delete, edit and add all reservations.
 # Possible Future Features:
 
 * Interactive social account section.
-* email verification
-* image appearing in event upload
+* email verification.
+* Image upload feature
 * have a calender attached to the date in the form.
 * change the time settings in the form.
+* add a add clients button for logged on users.
 
 # Techologies used
 
@@ -206,28 +234,32 @@ Languages used:
 * Chrome Developer Tools for layout and responsive testing.
 * favICO.com for creating favicon.
 * W3 Validator to test html and css code.
-* elephantsQl for database
+* elephantsQl/postgre for database
 * cloudinary for storage
 
 ## Testing
 
 ### Django Testing
 
-I am testing my code using the testing function in django, i am writing the code using the testcase and testing the forms.py, models.py, views.py. I am testing to check for example the title has to be filled in the form.
+I am testing my code using the testing function in django, i am writing the code using the testcase and testing the forms.py, models.py, views.py. I am testing to check for example the title has to be filled in the form. When I performed django testing I used the sqlite database, and then swapped it back to the database-url when I finished testing. This time I didnt have enough time to test fully with django, but this is something I intend to do to improve the security and reliability of my site in the future.
 
-You want the sqlite database when testing, so comment out the one where you get the DATABASE_URL from the environment.
-And make sure to reverse that when you're deploying again!
 
 ### Manual Testing
 
-* I have tested the site as a logged in user who is the admin and everything works as intended.
-* I have tested the site with a test login to see the website behaves as expected when you are a logged in user who is not a admin.
-* I have tested the website while being logged out, and everything works as expected.
-* Log in appears when log in button appears, when create reservation is clicked, when the user is not logged in, it redirects to log in page.
-* After you are logged in you are automatically redirectd back to the website.
-* When you log out you are redirected abck ot the website as well.
-* Update and delete work as expected.
-* Admin set up correctly, and when a reservation is added, is automatically appears in the website.
+* I have tested the site as a logged in user who is the admin and everything works as intended. All functions active.
+* I have tested the site with a test login to see the website behaves as expected when you are a logged in user, who is not a admin.
+* I have tested the website while being logged out, and everything works as expected. You see the log in button if you click a events details for example. And you cannot create edit or delete if you are not a logged in user.
+* Log in page appears when log in button is clicked.
+* When create reservation button is clicked, when the user is not logged in, it redirects to log in page.
+* After you are logged in you are automatically redirected back to the website.
+* When you log out you are redirected back ot the website as well.
+* Update and delete button work as expected. Though when deleting it could be improved by having a http respinse message, asking if you are sure you want to delete.
+* Admin set up correctly, and when a reservation is added through admin, it automatically appears in the website.
+* Admin can edit and delete anyone's post from admin page.
+* A logging user can edit and delete and create its own reservations.
+* You can register a new account as a new user.
+* The site is interactive on all devices and changes accordinly, including chnages to the nav bar when the screen is smaller, the bar appears on the right.
+* Each reservation appears on the site whether from admin or direvtly on the website.
 
 
 
@@ -237,8 +269,24 @@ And make sure to reverse that when you're deploying again!
 
 
 # CSS and HTML Validator:
+* CSS Validator for Home page :
+![Skärmbild (231)](https://github.com/hnjw-png/DJANGOBLOG/assets/120515252/e0cd9d8e-b103-4ee9-9ac8-c86ac4444168)
+* CSS validator for other pages.
+![Skärmbild (232)](https://github.com/hnjw-png/DJANGOBLOG/assets/120515252/2aa43a57-dc32-43ec-9dcf-390e10104bc8)
+![Skärmbild (233)](https://github.com/hnjw-png/DJANGOBLOG/assets/120515252/500c880b-35bd-47e2-9f77-0d513df0212c)
+![Skärmbild (234)](https://github.com/hnjw-png/DJANGOBLOG/assets/120515252/4f671f76-22bf-478a-baee-556d5687f794)
 
-## Home css validated 
+  
+
+## Lighthouse
+
+* ![Skärmbild (236)](https://github.com/hnjw-png/DJANGOBLOG/assets/120515252/70232f03-532e-433d-8881-e2ff579370e6)
+
+* ![Skärmbild (237)](https://github.com/hnjw-png/DJANGOBLOG/assets/120515252/7cec59ea-b038-49dc-abfa-8790a09be779)
+
+* ![Skärmbild (238)](https://github.com/hnjw-png/DJANGOBLOG/assets/120515252/1c11e7d2-f190-441d-b94d-efc2e8926d26)
+
+* ![Skärmbild (239)](https://github.com/hnjw-png/DJANGOBLOG/assets/120515252/7316b27b-dc19-4388-8344-06ceddd20e20)
 
 
 
@@ -252,8 +300,17 @@ And make sure to reverse that when you're deploying again!
 
 # Deployment:
 
-* I have deployed my application to heroku: 
+* I have deployed my application to heroku:
+* I began my project my pre-deploying my project to heroku, I created a app in heroku called rest, and I then conencted my heroku app to my githug repository 'djangoblog'. 
+* I have make sure my heroku link is in my allowed hosts, in my settings.py.
+* I have added a requirements.txt file and a Procfile. As well as a gitignore file.
+* I have added my cloudinary, postgres configur vars.
+* I have added my secret key to configur vars.
+* I have added my cloudinary, postgres and configur vars into my github repository. (also added collect static < 1)
 * In order to deploy my website to heroku, I have set in settings.py to DEBUG = 'False'
+* In order for the deployment to work I have made sure my images are being sourced from cloudinary.
+* I have removed the collect static > 1 from heroku config vars, so the static files and css appear on the heroku deployed app.
+
 # sources
 
 * background image = https://pixabay.com/photos/concert-confetti-party-event-club-2527495/
@@ -264,6 +321,8 @@ a free to use commericial image from pixbay.
 
 a free to use image from pixbay.
 
-*code institute learning content.
+* code institute learning content.
 
-*static overflow for tips
+* staticoverflow for tips.
+
+* 
