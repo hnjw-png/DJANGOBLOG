@@ -83,7 +83,7 @@ I choose the font 'lato' this font has a nice clear look, which is a little bit 
 ![Skärmbild (179)](https://github.com/hnjw-png/DJANGOBLOG/assets/120515252/f12471d4-c28a-40ef-af8f-c736e99f98aa)
 
 
-*Reservation detail page
+* Reservation detail page
 * Here I have layed out how the reservation detail page, with a clear vision of how it will look for each reservation detail. The reservation detail page will automatically update, delete. As well as when a user or a admin adds a reservation it will automatically appear in the reservation page on the homepage.
 
 ![Skärmbild (180)](https://github.com/hnjw-png/DJANGOBLOG/assets/120515252/3c5cf1b9-c11d-427e-8bea-02810aa30ec0)
@@ -92,6 +92,7 @@ I choose the font 'lato' this font has a nice clear look, which is a little bit 
 * Reservation form page
 
 * The form page is designed to be in the middle of the screen and should consist of about 5 questions, title, description, time, date, location.
+  
 ![Skärmbild (181)](https://github.com/hnjw-png/DJANGOBLOG/assets/120515252/0206662f-330b-4a3f-8168-dfe9a0fa3083)
 
 
@@ -111,6 +112,8 @@ I choose the font 'lato' this font has a nice clear look, which is a little bit 
 * Anyone can join and log in and log out.
 
 * Only the admin can edit any reservation, from the admin page.
+
+*  Events management system 
 
 # Responsiveness:
 
