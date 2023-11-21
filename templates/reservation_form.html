@@ -1,7 +1,7 @@
 {% extends "base.html" %}
 {% block content %}
     <h2 class = 'new_reservation'>{{ form.instance.title|default:"New Reservation" }}</h2>
-    <p class = 'info'>None detailed reservations, will be deleted by admin.</p>
+    <p class = 'reserve_detail'>None detailed reservations, will be deleted by admin.</p>
     <form method="post">
         {% csrf_token %}
         {{ form.as_p }}

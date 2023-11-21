@@ -185,7 +185,7 @@
 /* reservation_detail css */
 
 .info {
-    font-size: 40px;
+    font-size: 50px;
     text-align: center;
     font-style: normal;
     font-family: 'Lato', sans-serif;
@@ -204,6 +204,7 @@
     color: white;
     text-decoration: none;
     text-align: center; 
+    text-size-adjust: auto;
 
 }
 
