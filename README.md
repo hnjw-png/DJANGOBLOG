@@ -50,8 +50,8 @@ When the visitor first visits the reservation planning system:
 The colour scheme is that of a white background to keep things professional and then pops of colour in the site. The colours will be based upon more natural hues, such as:
 
 * light purple, pink/purple hue, blue, white. Black aand purple, consistent in the homepage, follows same hues in ajoining pages. Same color coordinated with navheader and main header(the brand name event101)
-* light blue, white, light purple consistent in the reservation form page and the reservation detail page and form page.
-* The sign in/out and sign up page is kept to the basic allauth layout, but in the future i intend to beautify that to match the rest of the site better.
+* light blue, white, light purple consistent in the reservation form page and the reservation detail page and home page.
+* The sign in/out and sign up page is kept to the basic allauth layout, but in the future I intend to beautify that to match the rest of the site better.
 
   I researched color combination and hues, to understand how to balance colors, blend them and make whats needed to stand out, stand out clearly. I like the lighter hues of color, which give th site a light friendly feel, which is consistant of the website intention to create a relaxed notebook to create events. 
 
@@ -60,6 +60,7 @@ The colour scheme is that of a white background to keep things professional and 
 # Typography
 
 I choose the font 'lato' this font has a nice clear look, which is a little bit like clear fancy handwriting, this stands out well and fits the style of the website, which should hae a professional feel.
+
 
 
 # Wireframes
