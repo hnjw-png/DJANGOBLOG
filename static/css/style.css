@@ -6,7 +6,7 @@
     color: #4A4A4F;
 }
 
-.red-o {
+.purple-v {
     color: #a28089;;
 }
 
@@ -113,25 +113,16 @@
 }
 
 /*front page reservation list buttons */
-
-.button-create {
-
-        font-style: normal;
-        font-family: 'Lato', sans-serif;
-        font-size: 50px;
-        font-weight: 10;
-        text-decoration: none;
-        
-    
-    }
-
-
  .buttonfunny {
 
     
-        margin-left: auto;
-        margin-right: auto;
-        
+        text-align: center;
+        text-decoration: none;
+        border: none;
+        background-color: white;
+        color: black;
+        font-family: 'Lato', sans-serif;
+        font-size: 70%;
         
     
     }
@@ -146,29 +137,29 @@
     margin: auto;
     justify-content: center;
     text-decoration: none;
+    text-align: center;
     border: none;
+    background-color: white;
+    color: black;
+    font-family: 'Lato', sans-serif;
+    font-size: 50px;
     
 
 }
 
 /* reservation details three buttons*/
-.button-detail {
-
-    font-style: normal;
-    font-family: 'Lato', sans-serif;
-    font-size: 50px;
-    font-weight: 10;
-    text-decoration: none;
-    text-align: center;
-
-}
-
-
 .buttonf {
 
+
+    text-decoration: none;
+    border: none;
     text-align: center;
-    margin-left: 22%; 
-    
+    background-color: white;
+    color: black;
+    font-family: 'Lato', sans-serif;
+    font-size: 50px;
+    margin-inline-start: 12%;
+        
     
     
 
@@ -209,10 +200,10 @@
     font-style: normal;
     font-family: 'Lato', sans-serif;
     font-size: 25px;
-    font-weight: 10;
-    color: #a28089;
+    font-weight: bolder;
+    color: white;
     text-decoration: none;
-    margin-inline-start: 17%;   
+    text-align: center; 
 
 }
 
@@ -272,7 +263,7 @@ form {
 
 
 
-button:hover {
+a:hover {
     background-color: lightblue; /* Green */
     color: white;
 

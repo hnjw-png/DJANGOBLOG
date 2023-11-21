@@ -4,15 +4,15 @@
     <div id = 'purple'><span class="brand-header">E<span class="red-o-header">V</span>ENT<span
         class="thin-header">|101</span></span></a>
     <p class = "brand-info">Welcome! Please Log in to create, update & delete your own events. </p></div>
-   <p id = 'reserve_list'><p>
-   <a class = 'create' href="{% url 'create_reservation' %}"><button class = 'button-create'>Create Reservation</button></a><img src="{% static 'media/people-1230872_640.jpg' %}" alt="happy_people_event" class = "eventpeople"><p class = "brand-info" >View existing events:</p>
+   <p class = 'register'>Scroll down to see reservations list.<p>
+   <a class = 'create' href="{% url 'create_reservation' %}">Create Reservation</a><img src="{% static 'media/people-1230872_640.jpg' %}" alt="happy_people_event" class = "eventpeople"><p class = "brand-info" >View existing events:</p>
         {% for reservation in reservations %}
-            <li class ='reservation'>
-                <a class = 'buttonfunny' href="{% url 'reservation_detail' reservation.id %}"> <button class = 'button-create'>{{ reservation.title }}</button></a>
-            </li>
+            <ul><li class ='reservation'>
+                <a class = 'buttonfunny' href="{% url 'reservation_detail' reservation.id %}">{{ reservation.title }}</a>
+            </li></ul>
             
         {% empty %}
-            <li class ="buttonfunny">No reservations found.</li>
+            <ul><li class ="buttonfunny">No reservations found.</li></ul>
         {% endfor %}
-    </ul></div> 
+
 {% endblock %}
