@@ -77,12 +77,17 @@ I choose the font 'lato' this font has a nice clear look, which is a little bit 
 ![Skärmbild (176)](https://github.com/hnjw-png/DJANGOBLOG/assets/120515252/e8133055-034c-41bf-9a13-c26bd4887b69)
 
 * Homepage/reservation list page design
+![Skärmbild (180)](https://github.com/hnjw-png/DJANGOBLOG/assets/120515252/f959af1c-6e50-4169-81ed-acf825d94abb)
+
+  
 * Here I have designed the layout and general looks of the homepage.
-![Skärmbild (179)](https://github.com/hnjw-png/DJANGOBLOG/assets/120515252/39d1b752-966d-4e30-b74b-2d6f035cff82)
+![Skärmbild (177)](https://github.com/hnjw-png/DJANGOBLOG/assets/120515252/5ec74e96-33f2-494e-934f-e6deeff75ebf)
+
 
 *Reservation detail page
 * Here I have layed out how the reservation detail page, with a clear vision of how it will look for each reservation detail. The reservation detail page will automatically update, delete. As well as when a user or a admin adds a reservation it will automatically appear in the reservation page on the homepage.
 
+![Skärmbild (180)](https://github.com/hnjw-png/DJANGOBLOG/assets/120515252/762aed07-39fa-4c27-8974-d119935e22ad)
 
 * Reservation form page
 
@@ -111,42 +116,33 @@ I choose the font 'lato' this font has a nice clear look, which is a little bit 
 This website fits to size on all types of devices. From laptop to mobile phone. 
 
 * See responsiveness screenshot: 
+![Skärmbild (261)](https://github.com/hnjw-png/DJANGOBLOG/assets/120515252/aafa8420-22c8-40d8-81be-6237f7919724)
 
-![Skärmbild (182)](https://github.com/hnjw-png/DJANGOBLOG/assets/120515252/b84c0318-6465-46b5-bd48-d97e3d8cc2ca)
-
-* Mobile phone screenshot example :
-
-![Skärmbild (227)](https://github.com/hnjw-png/DJANGOBLOG/assets/120515252/7c5c7f13-d235-4fbf-b024-3976c5ac1f5f)
-
-![Skärmbild (226)](https://github.com/hnjw-png/DJANGOBLOG/assets/120515252/9133f091-1453-4dea-a680-6ff15ad5b665)
 
 ## Homepage; nav-bar :
 
 The homepage consists of a clear nav-bar which is responsive in all screen settings. The homepages nav-bar will appear differently according to if your are a logged in user or not.
 When you are logged in, you will see the nav-bar names: Home, Create Reservation, Logout. When you are logged out you will see the nav-bar names: Home, Create Reservation, Register, Login.
-![Skärmbild (193)](https://github.com/hnjw-png/DJANGOBLOG/assets/120515252/5d73244c-940f-4ba4-b8dc-913cf519cb47)
+![Skärmbild (222)](https://github.com/hnjw-png/DJANGOBLOG/assets/120515252/66ac3426-50f0-431d-a567-0bbefeeb9ed4)
 
-![Skärmbild (208)](https://github.com/hnjw-png/DJANGOBLOG/assets/120515252/7cf7d4b4-e940-4b55-868a-5295c0f37350)
 
 ## Homepage Header Section :
 
-The homepage header starts with the header title 'Event 101!' This title is decorated with multiple colors to match the overall color scheme of the website and of course the logo, this makes the title stand out even more...and shows the purpose of the webpage absolutely directly. The backgorund the concery colors photo which makes the site look very stylish and the color remains the same for the rules purpose statement below the header;
+The homepage header starts with the header title 'Event 101!' This title is decorated with multiple colors to match the overall color scheme of the website and of course the logo in the navbar, this makes the title stand out even more...and shows the purpose of the webpage absolutely directly. The background the concert colors photo which makes the site look very stylish and the color remains the same for the rules purpose statement below the header. 
+![Skärmbild (243)](https://github.com/hnjw-png/DJANGOBLOG/assets/120515252/94702d2a-e448-4da0-8ef3-ab978b496ed6)
 
-
-Thereafter you have another section which color changes to light blue, to correlate with the websites color scheme and to make each title stand out individually.
-![Skärmbild (189)](https://github.com/hnjw-png/DJANGOBLOG/assets/120515252/9cbb6176-8e6e-4de1-a584-a66151b2d22d)
-
+![Skärmbild (241)](https://github.com/hnjw-png/DJANGOBLOG/assets/120515252/10adc09d-96f9-4dc4-9f1b-30d89cd9ca42)
 
 
 ## Homepage main page (reservations list and create reservations buttons) :
 
-In the main page of the site, you will have a button to create a reservation, whether you're are logged in or not, you will be able to see and click this button. But if you are not logged in you wil be redirected to the login page. If you are, you will be redirected to the resveration form as previously stated. The create reservation is a bit bigger than the list of reservation button, the reason is to make it stand out. 
+In the main page of the site, you will have a button to create a reservation, whether you're are logged in or not, you will be able to see and click this button. But if you are not logged in you wil be redirected to the login page. If you are, you will be redirected to the reservation form as previously stated. The create reservation is a bit bigger than the list of reservation button, the reason is to make it stand out. 
 
+![Skärmbild (256)](https://github.com/hnjw-png/DJANGOBLOG/assets/120515252/9e5463ca-5293-47c5-89d5-b485c4ebd9fd)
 
 The reservations list buttons are also visable to a user whether they are logged in or not.
-![Skärmbild (218)](https://github.com/hnjw-png/DJANGOBLOG/assets/120515252/8efa1c07-f3f6-4955-9480-0f46a5b8afb3)
+
 When you click the reservation you will be redirected to the reservation detail page, regarding the reservation you clicked. 
-![Skärmbild (213)](https://github.com/hnjw-png/DJANGOBLOG/assets/120515252/80a81a55-7641-4475-bb8e-ce19ec06746b)
 
 The background color is a concert color image to make the main page stand out more, it coincides with the white buttons and black, lato font.
 
@@ -167,27 +163,33 @@ The nar bar appears the same as in the homepage, due to  there being all the cor
 
 
 ### Reservation form page :
-![Skärmbild (184)](https://github.com/hnjw-png/DJANGOBLOG/assets/120515252/1539852d-7770-46ac-97e8-a06ec4a805bd)
+The reservation form will render when you click any of the create reservation buttons on the website, whilst logged in. As well as rendering when you click the create a reservation nav button, als when logged in. The reservation form requires all fields to be filled out correctly to add the event to the homepage(database) There will be a add/submit button at the bottom of the form and if you have mis-filled in something it will inform you, it also has a default setting so the user knows how to fill out the date and time in the form.
+![Skärmbild (225)](https://github.com/hnjw-png/DJANGOBLOG/assets/120515252/7ab6df85-a230-4c64-acab-95f7980fc9c5)
 
-The reservation form will render when you click any of the create reservation buttons on the website, whilst logged in. As well as rendering when you click the create a reservation nav button, als when logged in. The reservation form requires all fields to be filled out correctly to add the event to the homepage(database) There will be a add/submit button at the bottom of the form and if you have mis-filled in something it will inform you, it also has a default setting so the user knows ho to fill out the date and time in the form.
 Here you have a statement about the rules and the purpose of the site more specifically. This is a friendly notice to users to keep things detailed, otherwise admin will delete the post.
-![Skärmbild (185)](https://github.com/hnjw-png/DJANGOBLOG/assets/120515252/4217ce51-0f74-4efa-973b-ab1c9b67a2e8)
+
+![Skärmbild (260)](https://github.com/hnjw-png/DJANGOBLOG/assets/120515252/8e6ba51e-c187-4327-98fe-e18aed59237a)
 
 
 ## Update and update button :
 
 When you are logged in and you have selected your own reservation, the update button will appear and you will then be redirected to the Reservation form, except it will have the details of the reservation you want to edit inside it already. Then the user is free to edit the reservation then add/save it again. And thereafter they will be redirected so they can see their updates reservation.
 
+![Skärmbild (257)](https://github.com/hnjw-png/DJANGOBLOG/assets/120515252/15d15399-3df9-409f-8294-cd6a80325090)
 
 
 
 ## Delete and delete button :
 
-When you are logged in and you have selected your own reservation, the delete button will appear and there once you press the button your reservation will be automatically deleted. A way to improve thisin the future is the have https response message appear asking if the user is sure they want to delete.
+When you are logged in and you have selected your own reservation, the delete button will appear and once you press the button your reservation will be automatically deleted. A way to improve thisin the future is the have https response message appear asking if the user is sure they want to delete.
+![Skärmbild (258)](https://github.com/hnjw-png/DJANGOBLOG/assets/120515252/63d6bc62-f41b-4d1a-b5eb-dd2396b09756)
 
 ## Create reservation button on reservation details page :
 
-This button beahves the same as the create reservation button on the homepage, you are directed to the reservation form page.(as long as you are logged in). When you hover over any button it will turn blue.
+This button beahaves the same as the create reservation button on the homepage, you are directed to the reservation form page.(as long as you are logged in). When you hover over any button it will turn blue. You find mulitple rservation buttons through the site including the nav bar.
+
+![Skärmbild (259)](https://github.com/hnjw-png/DJANGOBLOG/assets/120515252/7db8f9ad-3fb3-4532-b7c3-d91116866606)
+
 
 
 ## Log in, log out, sign up:
@@ -198,7 +200,7 @@ Here the automatic allauth setting has been implemented, so that we get a automa
 
 ## Admin page:
 
-The admin page have all options to delete, edit and add all reservations.
+The admin page have all options to delete, edit and add all reservations. It uses summernote settings.
 ![Skärmbild (194)](https://github.com/hnjw-png/DJANGOBLOG/assets/120515252/b3c10a36-7b1d-4fa9-ba6f-e18d56f81182)
 ![Skärmbild (195)](https://github.com/hnjw-png/DJANGOBLOG/assets/120515252/2cdcd59b-e23f-4447-9e7e-fb92e8bd9c9f)
 ![Skärmbild (196)](https://github.com/hnjw-png/DJANGOBLOG/assets/120515252/ca4ac186-9a32-44a9-8477-d5eff77b3675)
