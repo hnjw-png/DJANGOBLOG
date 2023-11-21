@@ -82,7 +82,7 @@ I choose the font 'lato' this font has a nice clear look, which is a little bit 
 
 *Reservation detail page
 * Here I have layed out how the reservation detail page, with a clear vision of how it will look for each reservation detail. The reservation detail page will automatically update, delete. As well as when a user or a admin adds a reservation it will automatically appear in the reservation page on the homepage.
-![Skärmbild (240)](https://github.com/hnjw-png/DJANGOBLOG/assets/120515252/efdf49f5-c857-4de9-a06e-3e46e3e95208)
+
 
 * Reservation form page
 
@@ -141,7 +141,7 @@ Thereafter you have another section which color changes to light blue, to correl
 ## Homepage main page (reservations list and create reservations buttons) :
 
 In the main page of the site, you will have a button to create a reservation, whether you're are logged in or not, you will be able to see and click this button. But if you are not logged in you wil be redirected to the login page. If you are, you will be redirected to the resveration form as previously stated. The create reservation is a bit bigger than the list of reservation button, the reason is to make it stand out. 
-![Skärmbild (192)](https://github.com/hnjw-png/DJANGOBLOG/assets/120515252/eaa6943b-1a77-45e5-87cb-e3e3d7f3ed8d)
+
 
 The reservations list buttons are also visable to a user whether they are logged in or not.
 ![Skärmbild (218)](https://github.com/hnjw-png/DJANGOBLOG/assets/120515252/8efa1c07-f3f6-4955-9480-0f46a5b8afb3)
@@ -160,8 +160,7 @@ The footer is light blue, to match the rest of the site and head nav bar. There 
 ### Reservation Detail Page:
 
 When you add a new reservation, it will render on the reservation details page, the way to access this page is to click the reservation you want to view on the homepage(reservation list). Here whilst you are logged in and accessing on of your own reservation, you will see the buttons, update reservation, delete reservation  and create reservation.
-![Skärmbild (185)](https://github.com/hnjw-png/DJANGOBLOG/assets/120515252/2d7fefdc-93f2-482c-af76-e4cf79e3c5b4)
-
+![Skärmbild (240)](https://github.com/hnjw-png/DJANGOBLOG/assets/120515252/efdf49f5-c857-4de9-a06e-3e46e3e95208)
 When you are logged out, you can click any reservation from the reservation list(homepage)and you will be able to view the reservation details on the reservation detail view, but instead of seeing all the buttons as you would when your logged in, you will see the button log in below the reservation details.
 
 The nar bar appears the same as in the homepage, due to  there being all the correct templates in place, including base.html.
@@ -178,21 +177,18 @@ Here you have a statement about the rules and the purpose of the site more speci
 ## Update and update button :
 
 When you are logged in and you have selected your own reservation, the update button will appear and you will then be redirected to the Reservation form, except it will have the details of the reservation you want to edit inside it already. Then the user is free to edit the reservation then add/save it again. And thereafter they will be redirected so they can see their updates reservation.
-![Skärmbild (187)](https://github.com/hnjw-png/DJANGOBLOG/assets/120515252/411b43cb-8580-469c-8d72-995728d8cbd6)
+
 
 
 
 ## Delete and delete button :
 
 When you are logged in and you have selected your own reservation, the delete button will appear and there once you press the button your reservation will be automatically deleted. A way to improve thisin the future is the have https response message appear asking if the user is sure they want to delete.
-![Skärmbild (191)](https://github.com/hnjw-png/DJANGOBLOG/assets/120515252/c015d374-73cb-47e1-8278-80f70366eb26)
 
 ## Create reservation button on reservation details page :
 
 This button beahves the same as the create reservation button on the homepage, you are directed to the reservation form page.(as long as you are logged in). When you hover over any button it will turn blue.
-![Skärmbild (223)](https://github.com/hnjw-png/DJANGOBLOG/assets/120515252/8076ae02-547c-4f61-9518-18582687559c)
 
-![Skärmbild (225)](https://github.com/hnjw-png/DJANGOBLOG/assets/120515252/527429e3-52a5-417b-9040-68ae5cc55fdb)
 
 ## Log in, log out, sign up:
 
