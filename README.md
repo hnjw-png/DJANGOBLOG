@@ -269,8 +269,24 @@ I am testing my code using the testing function in django, i am writing the code
 
 
 # CSS and HTML Validator:
+* CSS Validator for Home page :
+![Skärmbild (231)](https://github.com/hnjw-png/DJANGOBLOG/assets/120515252/e0cd9d8e-b103-4ee9-9ac8-c86ac4444168)
+* CSS validator for other pages.
+![Skärmbild (232)](https://github.com/hnjw-png/DJANGOBLOG/assets/120515252/2aa43a57-dc32-43ec-9dcf-390e10104bc8)
+![Skärmbild (233)](https://github.com/hnjw-png/DJANGOBLOG/assets/120515252/500c880b-35bd-47e2-9f77-0d513df0212c)
+![Skärmbild (234)](https://github.com/hnjw-png/DJANGOBLOG/assets/120515252/4f671f76-22bf-478a-baee-556d5687f794)
 
-## Home css validated 
+  
+
+## Lighthouse
+
+* ![Skärmbild (236)](https://github.com/hnjw-png/DJANGOBLOG/assets/120515252/70232f03-532e-433d-8881-e2ff579370e6)
+
+* ![Skärmbild (237)](https://github.com/hnjw-png/DJANGOBLOG/assets/120515252/7cec59ea-b038-49dc-abfa-8790a09be779)
+
+* ![Skärmbild (238)](https://github.com/hnjw-png/DJANGOBLOG/assets/120515252/1c11e7d2-f190-441d-b94d-efc2e8926d26)
+
+* ![Skärmbild (239)](https://github.com/hnjw-png/DJANGOBLOG/assets/120515252/7316b27b-dc19-4388-8344-06ceddd20e20)
 
 
 
