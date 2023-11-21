@@ -68,7 +68,8 @@ I choose the font 'lato' this font has a nice clear look, which is a little bit 
 * Diagram of site structure.
 
 * This diagram shows the layout of the website, I have planned to use one model called Reservation and connect it to create reservation, register, create reservation, delete, update and login reqired views and urls. This will create a synamic website, which a user or owner can navigate easily throught the website without needing to press back button manually for example.
-   [Skärmbild (177)](https://github.com/hnjw-png/DJANGOBLOG/assets/120515252/6b24e92d-ea37-4551-ae20-b79162a69465)
+  ![Skärmbild (177)](https://github.com/hnjw-png/DJANGOBLOG/assets/120515252/40f5a775-d0e5-4021-8d15-71df454c36d7)
+
 
 
 * Buttons and nav names
@@ -78,23 +79,22 @@ I choose the font 'lato' this font has a nice clear look, which is a little bit 
 ![Skärmbild (176)](https://github.com/hnjw-png/DJANGOBLOG/assets/120515252/e8133055-034c-41bf-9a13-c26bd4887b69)
 
 * Homepage/reservation list page design
-![Skärmbild (180)](https://github.com/hnjw-png/DJANGOBLOG/assets/120515252/f959af1c-6e50-4169-81ed-acf825d94abb)
 
-  
-* Here I have designed the layout and general looks of the homepage.
-![Skärmbild (177)](https://github.com/hnjw-png/DJANGOBLOG/assets/120515252/5ec74e96-33f2-494e-934f-e6deeff75ebf)
+![Skärmbild (179)](https://github.com/hnjw-png/DJANGOBLOG/assets/120515252/f12471d4-c28a-40ef-af8f-c736e99f98aa)
 
 
 *Reservation detail page
 * Here I have layed out how the reservation detail page, with a clear vision of how it will look for each reservation detail. The reservation detail page will automatically update, delete. As well as when a user or a admin adds a reservation it will automatically appear in the reservation page on the homepage.
 
-![Skärmbild (180)](https://github.com/hnjw-png/DJANGOBLOG/assets/120515252/762aed07-39fa-4c27-8974-d119935e22ad)
+![Skärmbild (180)](https://github.com/hnjw-png/DJANGOBLOG/assets/120515252/3c5cf1b9-c11d-427e-8bea-02810aa30ec0)
+
 
 * Reservation form page
 
 * The form page is designed to be in the middle of the screen and should consist of about 5 questions, title, description, time, date, location.
-![Skärmbild (181)](https://github.com/hnjw-png/DJANGOBLOG/assets/120515252/f88edcf3-3bf6-42e7-a96d-0dcd670b3862)
-.
+![Skärmbild (181)](https://github.com/hnjw-png/DJANGOBLOG/assets/120515252/0206662f-330b-4a3f-8168-dfe9a0fa3083)
+
+
 
 ## Features
 
