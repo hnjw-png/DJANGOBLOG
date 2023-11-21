@@ -95,7 +95,7 @@ I choose the font 'lato' this font has a nice clear look, which is a little bit 
   
 ![Skärmbild (181)](https://github.com/hnjw-png/DJANGOBLOG/assets/120515252/0206662f-330b-4a3f-8168-dfe9a0fa3083)
 
-
+## F
 
 ## Features
 
@@ -315,6 +315,11 @@ I am testing my code using the testing function in django, i am writing the code
 * In order to deploy my website to heroku, I have set in settings.py to DEBUG = 'False'
 * In order for the deployment to work I have made sure my images are being sourced from cloudinary.
 * I have removed the collect static > 1 from heroku config vars, so the static files and css appear on the heroku deployed app.
+
+* Here is my deployed heroku app link : https://rest-1418ac04f509.herokuapp.com/
+
+* This is my address to my github : https://8000-hnjwpng-djangoblog-ohrky9dltau.ws-eu106.gitpod.io/
+* If you wish to see my project in gitpod, please set debug to TRUE. To see correctly. Gitpod repository is shared.
 
 # sources
 
