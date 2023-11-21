@@ -284,8 +284,17 @@ I am testing my code using the testing function in django, i am writing the code
 
 # Deployment:
 
-* I have deployed my application to heroku: 
+* I have deployed my application to heroku:
+* I began my project my pre-deploying my project to heroku, I created a app in heroku called rest, and I then conencted my heroku app to my githug repository 'djangoblog'. 
+* I have make sure my heroku link is in my allowed hosts, in my settings.py.
+* I have added a requirements.txt file and a Procfile. As well as a gitignore file.
+* I have added my cloudinary, postgres configur vars.
+* I have added my secret key to configur vars.
+* I have added my cloudinary, postgres and configur vars into my github repository. (also added collect static < 1)
 * In order to deploy my website to heroku, I have set in settings.py to DEBUG = 'False'
+* In order for the deployment to work I have made sure my images are being sourced from cloudinary.
+* I have removed the collect static > 1 from heroku config vars, so the static files and css appear on the heroku deployed app.
+
 # sources
 
 * background image = https://pixabay.com/photos/concert-confetti-party-event-club-2527495/
@@ -296,6 +305,8 @@ a free to use commericial image from pixbay.
 
 a free to use image from pixbay.
 
-*code institute learning content.
+* code institute learning content.
 
-*static overflow for tips
+* staticoverflow for tips.
+
+* 
