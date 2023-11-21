@@ -265,18 +265,32 @@ I am testing my code using the testing function in django, i am writing the code
 
 
 # Lighthouse: 
+![Skärmbild (254)](https://github.com/hnjw-png/DJANGOBLOG/assets/120515252/b231b79c-c6cd-4d7f-b55a-97f30aaf07b6)
 
+![Skärmbild (253)](https://github.com/hnjw-png/DJANGOBLOG/assets/120515252/47cc9b9c-9bd4-4e11-b8c7-136de617019f)
+
+![Skärmbild (252)](https://github.com/hnjw-png/DJANGOBLOG/assets/120515252/f68ae964-a325-4343-ae0f-87652eecce92)
+
+![Skärmbild (251)](https://github.com/hnjw-png/DJANGOBLOG/assets/120515252/293736f0-2dff-40d6-8181-3a82afd0f8ae)
 
 
 # CSS and HTML Validator:
-* CSS Validator for Home page :
+* CSS Validator for Home page, and ajoinging pages :
 ![Skärmbild (231)](https://github.com/hnjw-png/DJANGOBLOG/assets/120515252/e0cd9d8e-b103-4ee9-9ac8-c86ac4444168)
 * CSS validator for other pages.
 ![Skärmbild (232)](https://github.com/hnjw-png/DJANGOBLOG/assets/120515252/2aa43a57-dc32-43ec-9dcf-390e10104bc8)
 ![Skärmbild (233)](https://github.com/hnjw-png/DJANGOBLOG/assets/120515252/500c880b-35bd-47e2-9f77-0d513df0212c)
 ![Skärmbild (234)](https://github.com/hnjw-png/DJANGOBLOG/assets/120515252/4f671f76-22bf-478a-baee-556d5687f794)
 
-  
+ ## HTML Checker
+![Skärmbild (248)](https://github.com/hnjw-png/DJANGOBLOG/assets/120515252/e2f19328-f4db-44d8-8089-34039a654b3b)
+![Skärmbild (246)](https://github.com/hnjw-png/DJANGOBLOG/assets/120515252/331dcb46-a9b4-48b1-8cb1-f9cd93fb1697)
+![Skärmbild (245)](https://github.com/hnjw-png/DJANGOBLOG/assets/120515252/3b8ba3e7-8a82-4b41-90b7-16bd1e34b9ac)
+
+* Below one error, as I cannot find the lagging a slash. And the lang is already set to eng. No other pages throw this error. 
+
+![Skärmbild (249)](https://github.com/hnjw-png/DJANGOBLOG/assets/120515252/6ce0e23a-6289-4256-b2be-9ef366b1795b)
+
 
 ## Lighthouse
 
